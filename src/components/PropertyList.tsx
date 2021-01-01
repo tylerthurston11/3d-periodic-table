@@ -80,7 +80,7 @@ export default function PropertyList({ atom }: PropertyListProps) {
             position={[-0.23, -0.42 - i * 0.15, 0.1]}
             fontSize={0.08}
             font="https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwK4vaqI.woff"
-            color="#ff0073"
+            color="#212529"
             anchorX="right"
             anchorY="top"
           >
@@ -115,7 +115,7 @@ export default function PropertyList({ atom }: PropertyListProps) {
         </geometry>
         <meshBasicMaterial
           attach="material"
-          color={page === 0 ? "#868e96" : "#495057"}
+          color={page === 0 ? "#ff0073" : "#495057"}
         />
       </mesh>
 

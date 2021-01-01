@@ -115,7 +115,7 @@ export default function PropertyList({ atom }: PropertyListProps) {
         </geometry>
         <meshBasicMaterial
           attach="material"
-          color={page === 0 ? "#ff0073" : "#495057"}
+          color={page === 0 ? "#25477b" : "#ff0073"}
         />
       </mesh>
 

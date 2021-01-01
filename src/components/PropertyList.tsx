@@ -80,7 +80,7 @@ export default function PropertyList({ atom }: PropertyListProps) {
             position={[-0.23, -0.42 - i * 0.15, 0.1]}
             fontSize={0.08}
             font="https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwK4vaqI.woff"
-            color="#212529"
+            color="#ff0073"
             anchorX="right"
             anchorY="top"
           >

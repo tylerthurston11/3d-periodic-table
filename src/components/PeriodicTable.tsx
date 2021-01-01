@@ -56,7 +56,7 @@ export default function PeriodicTable({
         const color =
           height !== null
             ? hslToHex(120 + (height / maxHeight) * 120, 89, 63)
-            : "#7a7a7a";
+            : "#ff0073";
 
         pillars.push(
           <AtomPillar

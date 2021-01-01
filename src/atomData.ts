@@ -2,7 +2,7 @@ import AtomInfo from "./types/AtomInfo";
 
 const data: AtomInfo[] = [
   {
-    name: "Hydrogen",
+    name: "Stupid Molecule",
     appearance: "colorless gas",
     atomicMass: 1.008,
     boil: 20.271,

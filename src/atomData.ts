@@ -2,11 +2,11 @@ import AtomInfo from "./types/AtomInfo";
 
 const data: AtomInfo[] = [
   {
-    name: "Test",
+    name: "Accelerometer",
     appearance: "colorless gas",
     atomicMass: 1.008,
     boil: 20.271,
-    category: "diatomic nonmetal",
+    category: "Hardware",
     color: null,
     density: 0.08988,
     discoveredBy: "Henry Cavendish",
@@ -19,8 +19,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Hydrogen",
 
     summary:
-      "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
-    symbol: "T",
+      "An accelerometer is an electronic device that can measure the position of the vehicle (up/down, left/right, and forward/backward). Information from the accelerometer is used in collision reconstruction to understand driving behavior leading up to the event. Learn more about telematics hardware technology in this article.",
+    symbol: "Ac",
     group: 1,
 
     shells: [1],
@@ -30,12 +30,12 @@ const data: AtomInfo[] = [
     earthAbundance: 1400,
   },
   {
-    name: "Helium",
+    name: "Duty of Care",
     appearance:
       "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",
     atomicMass: 4.0026022,
     boil: 4.222,
-    category: "noble gas",
+    category: "Compliance",
     color: null,
     density: 0.1786,
     discoveredBy: "Pierre Janssen",
@@ -48,8 +48,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Helium",
 
     summary:
-      "Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the periodic table. Its boiling and melting points are the lowest among all the elements.",
-    symbol: "He",
+      "Duty of care is the responsibility of fleet managers to help keep drivers safe and healthy, through measures for assessing and reducing risk.",
+    symbol: "Du",
     group: 18,
 
     shells: [2],
@@ -60,11 +60,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.008,
   },
   {
-    name: "Lithium",
+    name: "GO Device",
     appearance: "silvery-white",
     atomicMass: 6.94,
     boil: 1603,
-    category: "alkali metal",
+    category: "Hardware",
     color: null,
     density: 0.534,
     discoveredBy: "Johan August Arfwedson",
@@ -77,8 +77,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Lithium",
 
     summary:
-      "Lithium is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.",
-    symbol: "Li",
+      "The Geotab GO is a proprietary telematics device for fleet management with state-of-the-art GPS technology, G-force monitoring, GEOTAB IOX expandability, and engine and battery health assessments, with data security measures.",
+    symbol: "Gd",
     group: 1,
 
     shells: [2, 1],
@@ -89,11 +89,11 @@ const data: AtomInfo[] = [
     earthAbundance: 20,
   },
   {
-    name: "Beryllium",
+    name: "Firmware",
     appearance: "white-gray metallic",
     atomicMass: 9.01218315,
     boil: 2742,
-    category: "alkaline earth metal",
+    category: "Software",
     color: null,
     density: 1.85,
     discoveredBy: "Louis Nicolas Vauquelin",
@@ -106,8 +106,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Beryllium",
 
     summary:
-      "Beryllium is a chemical element with symbol Be and atomic number 4. It is created through stellar nucleosynthesis and is a relatively rare element in the universe. It is a divalent element which occurs naturally only in combination with other elements in minerals.",
-    symbol: "Be",
+      "Firmware is a specific type of software and that is designed to work closely with hardware, instead of abstracting it away behind an operating system. Many devices running firmware run either a very simple OS or none at all. This allows for greater control of hardware at the cost of increased complexity in implementation.",
+    symbol: "Fw",
     group: 2,
 
     shells: [2, 2],
@@ -118,11 +118,11 @@ const data: AtomInfo[] = [
     earthAbundance: 2.8,
   },
   {
-    name: "Boron",
+    name: "Asset Tracking",
     appearance: "black-brown",
     atomicMass: 10.81,
     boil: 4200,
-    category: "metalloid",
+    category: "Productivity",
     color: null,
     density: 2.08,
     discoveredBy: "Joseph Louis Gay-Lussac",
@@ -135,8 +135,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Boron",
 
     summary:
-      "Boron is a metalloid chemical element with symbol B and atomic number 5. Produced entirely by cosmic ray spallation and supernovae and not by stellar nucleosynthesis, it is a low-abundance element in both the Solar system and the Earth's crust. Boron is concentrated on Earth by the water-solubility of its more common naturally occurring compounds, the borate minerals.",
-    symbol: "B",
+      "Beyond the vehicle, companies have many other types of assets, such as heavy machinery, equipment, tools, etc. All of these can be tracked like a vehicle. Using Bluetooth® technology, the location of assets can be shown on a map, geofences setup to reduce theft, alerts when an asset reaches a certain location, and so on.",
+    symbol: "As",
     group: 13,
 
     shells: [2, 3],
@@ -147,11 +147,11 @@ const data: AtomInfo[] = [
     earthAbundance: 10,
   },
   {
-    name: "Carbon",
+    name: "Asset Utilization",
     appearance: null,
     atomicMass: 12.011,
     boil: null,
-    category: "polyatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 1.821,
     discoveredBy: "Ancient Egypt",
@@ -164,8 +164,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Carbon",
 
     summary:
-      'Carbon (from Latin:carbo "coal") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent—making four electrons available to form covalent chemical bonds.',
-    symbol: "C",
+      "Fleet asset utilization is the understanding of what vehicles are in your fleet, who is driving them, where they are going, when they are arriving, and how they will get there. By tracking these details, fleets managers can get a better picture of fleet performance and how to use each vehicle, driver and route to the company’s advantage.",
+    symbol: "Au",
     group: 14,
 
     shells: [2, 4],
@@ -176,11 +176,11 @@ const data: AtomInfo[] = [
     earthAbundance: 200,
   },
   {
-    name: "Nitrogen",
+    name: "Benchmarking",
     appearance: "colorless gas, liquid or solid",
     atomicMass: 14.007,
     boil: 77.355,
-    category: "diatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 1.251,
     discoveredBy: "Daniel Rutherford",
@@ -193,8 +193,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Nitrogen",
 
     summary:
-      "Nitrogen is a chemical element with symbol N and atomic number 7. It is the lightest pnictogen and at room temperature, it is a transparent, odorless diatomic gas. Nitrogen is a common element in the universe, estimated at about seventh in total abundance in the Milky Way and the Solar System.",
-    symbol: "N",
+      "Benchmarking is a trusted strategy for evaluating and improving operations based on a fleet’s driving patterns. It measures the current performance, and tracks progress towards goals. With telematics, users are able to gather a large volume and variety of data, set unique fleet goals and make necessary adjustments.",
+    symbol: "Bm",
     group: 15,
 
     shells: [2, 5],
@@ -205,11 +205,11 @@ const data: AtomInfo[] = [
     earthAbundance: 19,
   },
   {
-    name: "Oxygen",
+    name: "COI",
     appearance: null,
     atomicMass: 15.999,
     boil: 90.188,
-    category: "diatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 1.429,
     discoveredBy: "Carl Wilhelm Scheele",
@@ -222,8 +222,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Oxygen",
 
     summary:
-      "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",
-    symbol: "O",
+      "As opposed to return on investment (ROI), the cost of ignoring (COI) is the loss of savings that occur by not taking a specific action.",
+    symbol: "Ci",
     group: 16,
 
     shells: [2, 6],
@@ -243,11 +243,11 @@ const data: AtomInfo[] = [
     earthAbundance: 461000,
   },
   {
-    name: "Fluorine",
+    name: "Engine Diagnostics",
     appearance: null,
     atomicMass: 18.9984031636,
     boil: 85.03,
-    category: "diatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 1.696,
     discoveredBy: "André-Marie Ampère",
@@ -260,8 +260,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Fluorine",
 
     summary:
-      "Fluorine is a chemical element with symbol F and atomic number 9. It is the lightest halogen and exists as a highly toxic pale yellow diatomic gas at standard conditions. As the most electronegative element, it is extremely reactive:almost all other elements, including some noble gases, form compounds with fluorine.",
-    symbol: "F",
+      "Engine status data for all major engine protocols, such as rpm, voltage, fuel usage, coolant temperature, and fluid levels, can be communicated through the Geotab telematics device which plugs into the OBD II port. These on-board engine diagnostics come in the form of diagnostic trouble codes (DTCs) that can be specific to an OEM.",
+    symbol: "Ed",
     group: 17,
 
     shells: [2, 7],
@@ -282,12 +282,12 @@ const data: AtomInfo[] = [
     earthAbundance: 585,
   },
   {
-    name: "Neon",
+    name: "DVIR",
     appearance:
       "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
     atomicMass: 20.17976,
     boil: 27.104,
-    category: "noble gas",
+    category: "Compliance",
     color: null,
     density: 0.9002,
     discoveredBy: "Morris Travers",
@@ -300,8 +300,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Neon",
 
     summary:
-      "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
-    symbol: "Ne",
+      "A driver vehicle inspection report or DVIR, is a formal record confirming that a driver has completed an inspection on a commercial motor vehicle.Inspections are carried out at the beginning of the day, before work begins, and also at the end of the day when driving is finished (called the pre-trip inspection and post-trip inspection). Vehicle inspections are an important part of a truck driver’s daily routine and they are essential to keeping vehicles in good condition, while ensuring road safety and fleet compliance.",
+    symbol: "Dv",
     group: 18,
 
     shells: [2, 8],
@@ -323,11 +323,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0051,
   },
   {
-    name: "Sodium",
+    name: "GO RUGGED",
     appearance: "silvery white metallic",
     atomicMass: 22.989769282,
     boil: 1156.09,
-    category: "alkali metal",
+    category: "Hardware",
     color: null,
     density: 0.968,
     discoveredBy: "Humphry Davy",
@@ -340,8 +340,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Sodium",
 
     summary:
-      "Sodium is a chemical element with symbol Na and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in column 1 (alkali metals), and shares with the other six elements in that column that it has a single electron in its outer shell, which it readily donates, creating a positively charged atom - a cation.",
-    symbol: "Na",
+      "The GO RUGGED is a proprietary ruggedized telematics device by Geotab, designed for harsh environments and for use in off-road vehicles, mining equipment, heavy machinery and more. The protective covering on a GO RUGGED device shields the internal electronics from elements like dust and water.",
+    symbol: "Gr",
     group: 1,
 
     shells: [2, 8, 1],
@@ -364,11 +364,11 @@ const data: AtomInfo[] = [
     earthAbundance: 23600,
   },
   {
-    name: "Magnesium",
+    name: "Gamification",
     appearance: "shiny grey solid",
     atomicMass: 24.305,
     boil: 1363,
-    category: "alkaline earth metal",
+    category: "Software",
     color: null,
     density: 1.738,
     discoveredBy: "Joseph Black",
@@ -381,8 +381,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Magnesium",
 
     summary:
-      "Magnesium is a chemical element with symbol Mg and atomic number 12. It is a shiny gray solid which bears a close physical resemblance to the other five elements in the second column of the periodic table:they each have the same electron configuration in their outer electron shell producing a similar crystal structure. Magnesium is the ninth most abundant element in the universe.",
-    symbol: "Mg",
+      "Gamification is the concept of turning safe driving habits into a game or competition. Using the MyGeotab software and an integrated gamification solution, managers can see the top safest drivers and then reward good driving behavior, as well as create friendly competition among drivers.",
+    symbol: "Gm",
     group: 2,
 
     shells: [2, 8, 2],
@@ -406,11 +406,11 @@ const data: AtomInfo[] = [
     earthAbundance: 23300,
   },
   {
-    name: "Aluminium",
+    name: "Accident Detection",
     appearance: "silvery gray metallic",
     atomicMass: 26.98153857,
     boil: 2743,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 2.7,
     discoveredBy: null,
@@ -423,8 +423,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Aluminium",
 
     summary:
-      "Aluminium (or aluminum; see different endings) is a chemical element in the boron group with symbol Al and atomic number 13. It is a silvery-white, soft, nonmagnetic, ductile metal. Aluminium is the third most abundant element (after oxygen and silicon), and the most abundant metal, in the Earth's crust.",
-    symbol: "Al",
+      "Accident detection occurs when the Geotab GO device detects any acceleration greater than or equal to 2.5 G, where G is 9.81 m/s2 (the acceleration due to the Earth’s gravity). This is classified as a collision-level event. When the Geotab GO device detects a 2.5 G event in any direction, the device is triggered to start recording at 100 Hz frequency. This detailed, high resolution information will be reflected in the trip in MyGeotab, and includes acceleration, GPS speed and brake data (if available.)",
+    symbol: "Ad",
     group: 13,
 
     shells: [2, 8, 3],
@@ -449,11 +449,11 @@ const data: AtomInfo[] = [
     earthAbundance: 82300,
   },
   {
-    name: "Silicon",
+    name: "Dispatching",
     appearance: "crystalline, reflective with bluish-tinged faces",
     atomicMass: 28.085,
     boil: 3538,
-    category: "metalloid",
+    category: "Productivity",
     color: null,
     density: 2.329,
     discoveredBy: "Jöns Jacob Berzelius",
@@ -466,8 +466,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Silicon",
 
     summary:
-      "Silicon is a chemical element with symbol Si and atomic number 14. It is a tetravalent metalloid, more reactive than germanium, the metalloid directly below it in the table. Controversy about silicon's character dates to its discovery.",
-    symbol: "Si",
+      "Fleet dispatching is the act of directing or assigning drivers and vehicles to specific locations, or to carry out specific tasks.",
+    symbol: "Di",
     group: 14,
 
     shells: [2, 8, 4],
@@ -493,11 +493,11 @@ const data: AtomInfo[] = [
     earthAbundance: 282000,
   },
   {
-    name: "Phosphorus",
+    name: "Engine Hours",
     appearance: "colourless, waxy white, yellow, scarlet, red, violet, black",
     atomicMass: 30.9737619985,
     boil: null,
-    category: "polyatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 1.823,
     discoveredBy: "Hennig Brand",
@@ -510,8 +510,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Phosphorus",
 
     summary:
-      "Phosphorus is a chemical element with symbol P and atomic number 15. As an element, phosphorus exists in two major forms—white phosphorus and red phosphorus—but due to its high reactivity, phosphorus is never found as a free element on Earth. Instead phosphorus-containing minerals are almost always present in their maximally oxidised state, as inorganic phosphate rocks.",
-    symbol: "P",
+      "Engine hours tells you the actual hours an engine has run, which is different from what is tracked by the odometer, which is actual miles driven. For example, the odometer reading would not include time idling at a stop light. In high-idling applications, this measurement can help provide more accurate maintenance parameters. This is also how electronic logging devices (ELDs) are able to automatically log driver hours. Read more about engine hours and idling in this article.",
+    symbol: "Eh",
     group: 15,
 
     shells: [2, 8, 5],
@@ -538,11 +538,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1050,
   },
   {
-    name: "Sulfur",
+    name: "Fleet Rightsizing",
     appearance: "lemon yellow sintered microcrystals",
     atomicMass: 32.06,
     boil: 717.8,
-    category: "polyatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 2.07,
     discoveredBy: "Ancient china",
@@ -555,8 +555,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Sulfur",
 
     summary:
-      "Sulfur or sulphur (see spelling differences) is a chemical element with symbol S and atomic number 16. It is an abundant, multivalent non-metal. Under normal conditions, sulfur atoms form cyclic octatomic molecules with chemical formula S8.",
-    symbol: "S",
+      "Fleet rightsizing is a proactive, strategic plan to have the right type of vehicle, at the right locations and available at the right time. It ultimately can help fleet managers have sustainable fleets.",
+    symbol: "Fr",
     group: 16,
 
     shells: [2, 8, 6],
@@ -584,11 +584,11 @@ const data: AtomInfo[] = [
     earthAbundance: 350,
   },
   {
-    name: "Chlorine",
+    name: "Fuel Economy",
     appearance: "pale yellow-green gas",
     atomicMass: 35.45,
     boil: 239.11,
-    category: "diatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 3.2,
     discoveredBy: "Carl Wilhelm Scheele",
@@ -601,8 +601,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Chlorine",
 
     summary:
-      "Chlorine is a chemical element with symbol Cl and atomic number 17. It also has a relative atomic mass of 35.5. Chlorine is in the halogen group (17) and is the second lightest halogen following fluorine.",
-    symbol: "Cl",
+      "Fuel economy is the relation in distance that a vehicle travels and how much fuel is consumed during that trip.",
+    symbol: "Fe",
     group: 17,
 
     shells: [2, 8, 7],
@@ -631,12 +631,12 @@ const data: AtomInfo[] = [
     earthAbundance: 145,
   },
   {
-    name: "Argon",
+    name: "ELD",
     appearance:
       "colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field",
     atomicMass: 39.9481,
     boil: 87.302,
-    category: "noble gas",
+    category: "Compliance",
     color: null,
     density: 1.784,
     discoveredBy: "Lord Rayleigh",
@@ -649,8 +649,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Argon",
 
     summary:
-      "Argon is a chemical element with symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most common gas in the Earth's atmosphere, at 0.934%, making it over twice as abundant as the next most common atmospheric gas, water vapor, and 23 times as abundant as the next most common non-condensing atmospheric gas, carbon dioxide.",
-    symbol: "Ar",
+      "An electronic logging device, also called an ELD, is technology for drivers of commercial motor vehicles (CMVs) to automatically record driving time and Hours of service (HOS) records and capture data on the vehicle’s engine, movement, and miles driven. The Federal Motor Carrier Safety Administration (FMCSA) mandated the use of ELDs for the commercial truck and bus industries as a means of improving road safety, strengthening compliance, and protecting commercial drivers. To learn more and see the compliance timeline, read this Quick Guide to the FMCSA’s ELD Mandate.",
+    symbol: "El",
     group: 18,
 
     shells: [2, 8, 8],
@@ -680,11 +680,11 @@ const data: AtomInfo[] = [
     earthAbundance: 3.5,
   },
   {
-    name: "Potassium",
+    name: "GO TALK",
     appearance: "silvery gray",
     atomicMass: 39.09831,
     boil: 1032,
-    category: "alkali metal",
+    category: "Hardware",
     color: null,
     density: 0.862,
     discoveredBy: "Humphry Davy",
@@ -697,8 +697,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Potassium",
 
     summary:
-      "Potassium is a chemical element with symbol K (derived from Neo-Latin, kalium) and atomic number 19. It was first isolated from potash, the ashes of plants, from which its name is derived. In the Periodic table, potassium is one of seven elements in column (group) 1 (alkali metals):they all have a single valence electron in their outer electron shell, which they readily give up to create an atom with a positive charge - a cation, and combine with anions to form salts.",
-    symbol: "K",
+      "Geotab’s GO TALK is a proprietary driver coaching solution that delivers spoken messages to the driver in near real-time to help improve fleet safety. It does this by tracking harsh cornering, speeding and other risky behaviors and letting a driver know immediately that they should modify or change a behavior. Read an interview with two product experts on GO TALK.",
+    symbol: "Gt",
     group: 1,
 
     shells: [2, 8, 8, 1],
@@ -729,11 +729,11 @@ const data: AtomInfo[] = [
     earthAbundance: 20900,
   },
   {
-    name: "Calcium",
+    name: "Geotab Drive",
     appearance: null,
     atomicMass: 40.0784,
     boil: 1757,
-    category: "alkaline earth metal",
+    category: "Software",
     color: null,
     density: 1.55,
     discoveredBy: "Humphry Davy",
@@ -746,8 +746,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Calcium",
 
     summary:
-      "Calcium is a chemical element with symbol Ca and atomic number 20. Calcium is a soft gray alkaline earth metal, fifth-most-abundant element by mass in the Earth's crust. The ion Ca2+ is also the fifth-most-abundant dissolved ion in seawater by both molarity and mass, after sodium, chloride, magnesium, and sulfate.",
-    symbol: "Ca",
+      "Geotab Drive is a proprietary Mobile App used in conjunction with Geotab GO telematics device, used for hours of service (HOS) logging, driver identification, driver vehicle inspection reports (DVIR) and driver messaging.",
+    symbol: "Dr",
     group: 2,
 
     shells: [2, 8, 8, 2],
@@ -779,11 +779,11 @@ const data: AtomInfo[] = [
     earthAbundance: 41500,
   },
   {
-    name: "Scandium",
+    name: "3G Sunset",
     appearance: "silvery white",
     atomicMass: 44.9559085,
     boil: 3109,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 2.985,
     discoveredBy: "Lars Fredrik Nilson",
@@ -796,8 +796,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Scandium",
 
     summary:
-      "Scandium is a chemical element with symbol Sc and atomic number 21. A silvery-white metallic d-block element, it has historically been sometimes classified as a rare earth element, together with yttrium and the lanthanoids. It was discovered in 1879 by spectral analysis of the minerals euxenite and gadolinite from Scandinavia.",
-    symbol: "Sc",
+      "Similarly to the previous 2G network shutdown, the 3G sunset refers to the period when major cellular network carriers began phasing out or “sunsetting” their 3G networks, to allow for a transition to 4G LTE and 5G network use.",
+    symbol: "3C",
     group: 3,
 
     shells: [2, 8, 9, 2],
@@ -830,11 +830,11 @@ const data: AtomInfo[] = [
     earthAbundance: 22,
   },
   {
-    name: "Titanium",
+    name: "4G LTE Network",
     appearance: "silvery grey-white metallic",
     atomicMass: 47.8671,
     boil: 3560,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 4.506,
     discoveredBy: "William Gregor",
@@ -847,8 +847,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Titanium",
 
     summary:
-      "Titanium is a chemical element with symbol Ti and atomic number 22. It is a lustrous transition metal with a silver color, low density and high strength. It is highly resistant to corrosion in sea water, aqua regia and chlorine.",
-    symbol: "Ti",
+      "4G LTE connectivity for telematics devices provides a greater level of speed and efficiency for cloud-based fleet management and solution integrations. The term “4G LTE” is an acronym for “fourth generation long-term evolution.",
+    symbol: "4G",
     group: 4,
 
     shells: [2, 8, 10, 2],
@@ -882,11 +882,11 @@ const data: AtomInfo[] = [
     earthAbundance: 5650,
   },
   {
-    name: "Vanadium",
+    name: "5G Network",
     appearance: "blue-silver-grey metal",
     atomicMass: 50.94151,
     boil: 3680,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 6,
     discoveredBy: "Andrés Manuel del Río",
@@ -899,8 +899,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Vanadium",
 
     summary:
-      "Vanadium is a chemical element with symbol V and atomic number 23. It is a hard, silvery grey, ductile and malleable transition metal. The element is found only in chemically combined form in nature, but once isolated artificially, the formation of an oxide layer stabilizes the free metal somewhat against further oxidation.",
-    symbol: "V",
+      "The 5G network is the fifth generation of telecommunication technology used by cellular networks to transmit data around the world. This standard builds on 4G and allows increased capacity and faster speeds. There is a part of 5G called Category M which is optimized for IoT and devices like the Geotab GO.",
+    symbol: "5G",
     group: 5,
 
     shells: [2, 8, 11, 2],
@@ -935,11 +935,11 @@ const data: AtomInfo[] = [
     earthAbundance: 120,
   },
   {
-    name: "Chromium",
+    name: "Active Tracking",
     appearance: "silvery metallic",
     atomicMass: 51.99616,
     boil: 2944,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 7.19,
     discoveredBy: "Louis Nicolas Vauquelin",
@@ -952,8 +952,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Chromium",
 
     summary:
-      "Chromium is a chemical element with symbol Cr and atomic number 24. It is the first element in Group 6. It is a steely-gray, lustrous, hard and brittle metal which takes a high polish, resists tarnishing, and has a high melting point.",
-    symbol: "Cr",
+      "Active Tracking is a proprietary software feature in MyGeotab that provides faster location information at a more granular level, ideal for industries that need precise and immediate vehicle location, such as in emergency/medical services. Speed, turns and stops can be seen by a dispatcher in near real-time to ensure a vehicle gets to its location safely. Read more about how it works.",
+    symbol: "At",
     group: 6,
 
     shells: [2, 8, 13, 1],
@@ -989,11 +989,11 @@ const data: AtomInfo[] = [
     earthAbundance: 102,
   },
   {
-    name: "Manganese",
+    name: "Autonomous Vehicles",
     appearance: "silvery metallic",
     atomicMass: 54.9380443,
     boil: 2334,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 7.21,
     discoveredBy: "Torbern Olof Bergman",
@@ -1006,8 +1006,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Manganese",
 
     summary:
-      "Manganese is a chemical element with symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in combination with iron, and in many minerals. Manganese is a metal with important industrial metal alloy uses, particularly in stainless steels.",
-    symbol: "Mn",
+      "With several “levels” of autonomous technology, the highest level is self-driving cars, trucks, buses and all. Using sensors, cameras, and telematics data to detect other cars and conditions around the vehicle, autonomous vehicle technology allows the vehicle to go without an operator. Many companies have research and pilot programs happening now but it’s likely still many years off to be a mainstream vehicle.",
+    symbol: "Av",
     group: 7,
 
     shells: [2, 8, 13, 2],
@@ -1044,11 +1044,11 @@ const data: AtomInfo[] = [
     earthAbundance: 950,
   },
   {
-    name: "Iron",
+    name: "Business Intelligence",
     appearance: "lustrous metallic with a grayish tinge",
     atomicMass: 55.8452,
     boil: 3134,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 7.874,
     discoveredBy: "5000 BC",
@@ -1061,8 +1061,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Iron",
 
     summary:
-      "Iron is a chemical element with symbol Fe (from Latin:ferrum) and atomic number 26. It is a metal in the first transition series. It is by mass the most common element on Earth, forming much of Earth's outer and inner core.",
-    symbol: "Fe",
+      "Data analytics is the process of taking big data and turning it into Business Intelligence, meaning all the data collected is turned into palatable, understandable reports that lead to actionable insights. These data-driven decisions are considered to have a positive impact on operations by finding inefficiencies, or identifying good processes and replicating them.",
+    symbol: "Bi",
     group: 8,
 
     shells: [2, 8, 14, 2],
@@ -1100,11 +1100,11 @@ const data: AtomInfo[] = [
     earthAbundance: 56300,
   },
   {
-    name: "Cobalt",
+    name: "CAN Bus",
     appearance: "hard lustrous gray metal",
     atomicMass: 58.9331944,
     boil: 3200,
-    category: "transition metal",
+    category: "General",
     color: "metallic gray",
     density: 8.9,
     discoveredBy: "Georg Brandt",
@@ -1117,8 +1117,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Cobalt",
 
     summary:
-      "Cobalt is a chemical element with symbol Co and atomic number 27. Like nickel, cobalt in the Earth's crust is found only in chemically combined form, save for small deposits found in alloys of natural meteoric iron. The free element, produced by reductive smelting, is a hard, lustrous, silver-gray metal.",
-    symbol: "Co",
+      "The controller area network bus or CAN bus system connects and facilitates communication between all engine computer units (ECUs) in vehicles today.",
+    symbol: "Cb",
     group: 9,
 
     shells: [2, 8, 15, 2],
@@ -1157,11 +1157,11 @@ const data: AtomInfo[] = [
     earthAbundance: 25,
   },
   {
-    name: "Nickel",
+    name: "Connected Vehicles",
     appearance: "lustrous, metallic, and silver with a gold tinge",
     atomicMass: 58.69344,
     boil: 3003,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 8.908,
     discoveredBy: "Axel Fredrik Cronstedt",
@@ -1174,8 +1174,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Nickel",
 
     summary:
-      "Nickel is a chemical element with symbol Ni and atomic number 28. It is a silvery-white lustrous metal with a slight golden tinge. Nickel belongs to the transition metals and is hard and ductile.",
-    symbol: "Ni",
+      "Connected vehicle technology is used around the world to support productivity, efficiency, sustainability and compliance in business and government and is essential to safety, competitiveness and innovation. Wireless vehicle connection is made possible through vehicle-to-vehicle communication and vehicle-to-infrastructure communication. For example, a vehicle-to-infrastructure relationship could be a weather alert system sending a notification to drivers in the area.",
+    symbol: "Cv",
     group: 10,
 
     shells: [2, 8, 16, 2],
@@ -1215,11 +1215,11 @@ const data: AtomInfo[] = [
     earthAbundance: 84,
   },
   {
-    name: "Copper",
+    name: "Curve Logging Algorithm",
     appearance: "red-orange metallic luster",
     atomicMass: 63.5463,
     boil: 2835,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 8.96,
     discoveredBy: "Middle East",
@@ -1232,8 +1232,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Copper",
 
     summary:
-      "Copper is a chemical element with symbol Cu (from Latin:cuprum) and atomic number 29. It is a soft, malleable and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a reddish-orange color.",
-    symbol: "Cu",
+      "The Curve Logging Algorithm is a proprietary patented algorithm used by Geotab in processing large amounts of telematics data. The algorithm makes calculations to identify unnecessary points of data and discard them, while preserving the most important information.",
+    symbol: "Cl",
     group: 11,
 
     shells: [2, 8, 18, 1],
@@ -1274,11 +1274,11 @@ const data: AtomInfo[] = [
     earthAbundance: 60,
   },
   {
-    name: "Zinc",
+    name: "Cybersecurity",
     appearance: "silver-gray",
     atomicMass: 65.382,
     boil: 1180,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 7.14,
     discoveredBy: "India",
@@ -1291,8 +1291,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Zinc",
 
     summary:
-      "Zinc, in commerce also spelter, is a chemical element with symbol Zn and atomic number 30. It is the first element of group 12 of the periodic table. In some respects zinc is chemically similar to magnesium:its ion is of similar size and its only common oxidation state is +2.",
-    symbol: "Zn",
+      "With any type of data getting transmitted, there is always the need for cybersecurity. The FBI, NHTSA, and NAFA have all expressed the need for greater awareness and action on cybersecurity with regard to connected vehicles. Learn about best practices for cybersecurity in telematics in this blog post on cybersecurity management.",
+    symbol: "Cs",
     group: 12,
 
     shells: [2, 8, 18, 2],
@@ -1325,11 +1325,11 @@ const data: AtomInfo[] = [
     earthAbundance: 70,
   },
   {
-    name: "Gallium",
+    name: "Aggressive Driving",
     appearance: "silver-white",
     atomicMass: 69.7231,
     boil: 2673,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 5.91,
     discoveredBy: "Lecoq de Boisbaudran",
@@ -1342,8 +1342,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Gallium",
 
     summary:
-      "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 °C (85.57 °F) (slightly above room temperature).",
-    symbol: "Ga",
+      "This is a type of high-risk driving behavior that can be tracked by a telematics device. Aggressive driving includes speeding, which has its obvious risks; harsh braking, which can indicate the driver was following too closely or distracted; hard acceleration, which reduces chance of reacting on time, not to mention isn’t fuel efficient; and hard cornering, which can also indicate distracted driving or even drowsy driving. Telematics can help curb aggressive driving, through risk and safety monitoring, driver coaching tools and driver recognition/reward programs.",
+    symbol: "Ag",
     group: 13,
 
     shells: [2, 8, 18, 3],
@@ -1354,11 +1354,11 @@ const data: AtomInfo[] = [
     earthAbundance: 19,
   },
   {
-    name: "Germanium",
+    name: "Geofencing",
     appearance: "grayish-white",
     atomicMass: 72.6308,
     boil: 3106,
-    category: "metalloid",
+    category: "Productivity",
     color: null,
     density: 5.323,
     discoveredBy: "Clemens Winkler",
@@ -1371,8 +1371,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Germanium",
 
     summary:
-      "Germanium is a chemical element with symbol Ge and atomic number 32. It is a lustrous, hard, grayish-white metalloid in the carbon group, chemically similar to its group neighbors tin and silicon. Purified germanium is a semiconductor, with an appearance most similar to elemental silicon.",
-    symbol: "Ge",
+      "Geofencing allows managers to create zones of various types such as an office or customer location. For example, if a certain vehicle shouldn’t leave a particular jobsite, a fleet manager could set up a geofence for that vehicle around the area it should stay in. With exception reporting, the manager can then receive alerts if that vehicle travels outside the geofence. A technical services engineer explains how to create a zone in MyGeotab here. See also: What is geofencing?",
+    symbol: "Fe",
     group: 14,
 
     shells: [2, 8, 18, 4],
@@ -1383,11 +1383,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1.5,
   },
   {
-    name: "Arsenic",
+    name: "Nearest Vehicle",
     appearance: "metallic grey",
     atomicMass: 74.9215956,
     boil: null,
-    category: "metalloid",
+    category: "Productivity",
     color: null,
     density: 5.727,
     discoveredBy: "Bronze Age",
@@ -1400,8 +1400,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Arsenic",
 
     summary:
-      "Arsenic is a chemical element with symbol As and atomic number 33. Arsenic occurs in many minerals, usually in conjunction with sulfur and metals, and also as a pure elemental crystal. Arsenic is a metalloid.",
-    symbol: "As",
+      "Using telematics, fleets can improve dispatching through a feature that makes it possible to locate the nearest vehicle to a particular customer stop on a map. For example, when a service or a first responder fleet gets an emergency call, instead of calling each mobile worker to check if they can respond to the job and exactly where they are, a dispatcher can easily see which vehicle and worker is closest to the job and dispatch and route them straight from where they are.",
+    symbol: "Nv",
     group: 15,
 
     shells: [2, 8, 18, 5],
@@ -1412,11 +1412,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1.8,
   },
   {
-    name: "Selenium",
+    name: "Fuel Usage",
     appearance: "black, red, and gray (not pictured) allotropes",
     atomicMass: 78.9718,
     boil: 958,
-    category: "polyatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 4.81,
     discoveredBy: "Jöns Jakob Berzelius",
@@ -1429,8 +1429,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Selenium",
 
     summary:
-      "Selenium is a chemical element with symbol Se and atomic number 34. It is a nonmetal with properties that are intermediate between those of its periodic table column-adjacent chalcogen elements sulfur and tellurium. It rarely occurs in its elemental state in nature, or as pure ore compounds.",
-    symbol: "Se",
+      "This measurement indicates how much fuel is consumed by vehicle. Learn more about how Geotab measures fuel usage.",
+    symbol: "Fu",
     group: 16,
 
     shells: [2, 8, 18, 6],
@@ -1441,11 +1441,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.05,
   },
   {
-    name: "Bromine",
+    name: "Idle Trends",
     appearance: null,
     atomicMass: 79.904,
     boil: 332,
-    category: "diatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 3.1028,
     discoveredBy: "Antoine Jérôme Balard",
@@ -1458,8 +1458,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Bromine",
 
     summary:
-      "Bromine is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob Löwig and Antoine Jerome Balard, in 1825–1826.",
-    symbol: "Br",
+      "Idle trends show when, where and for how long true idling or wasted time events occurred. By viewing these, it becomes possible to calculate a breakdown of the amount of time vehicle idling is occurring which can then help fleets determine trends in idling.",
+    symbol: "It",
     group: 17,
 
     shells: [2, 8, 18, 7],
@@ -1470,12 +1470,12 @@ const data: AtomInfo[] = [
     earthAbundance: 2.4,
   },
   {
-    name: "Krypton",
+    name: "Fleet Compliance",
     appearance:
       "colorless gas, exhibiting a whitish glow in a high electric field",
     atomicMass: 83.7982,
     boil: 119.93,
-    category: "noble gas",
+    category: "Compliance",
     color: null,
     density: 3.749,
     discoveredBy: "William Ramsay",
@@ -1488,8 +1488,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Krypton",
 
     summary:
-      "Krypton is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.",
-    symbol: "Kr",
+      "Keeping up with compliance standards is a key part of fleet management, especially during times of crisis. Fleet compliance refers to the adherence to regulations such as electronic driver logging (ELD), tax reporting and driver vehicle inspection reporting (DVIR) to name a few.",
+    symbol: "Fc",
     group: 18,
 
     shells: [2, 8, 18, 8],
@@ -1531,11 +1531,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0001,
   },
   {
-    name: "Rubidium",
+    name: "NFC",
     appearance: "grey white",
     atomicMass: 85.46783,
     boil: 961,
-    category: "alkali metal",
+    category: "Hardware",
     color: null,
     density: 1.532,
     discoveredBy: "Robert Bunsen",
@@ -1548,8 +1548,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Rubidium",
 
     summary:
-      "Rubidium is a chemical element with symbol Rb and atomic number 37. Rubidium is a soft, silvery-white metallic element of the alkali metal group, with an atomic mass of 85.4678. Elemental rubidium is highly reactive, with properties similar to those of other alkali metals, such as very rapid oxidation in air.",
-    symbol: "Rb",
+      "Near-field communication (NFC) is a collection of communication protocols that enables communication between two nearby devices. In fleet management, it can be used in conjunction with telematics devices to verify driver identity and allow sign-in to specific vehicles.",
+    symbol: "Nf",
     group: 1,
 
     shells: [2, 8, 18, 8, 1],
@@ -1571,11 +1571,11 @@ const data: AtomInfo[] = [
     earthAbundance: 90,
   },
   {
-    name: "Strontium",
+    name: "MyAdmin",
     appearance: null,
     atomicMass: 87.621,
     boil: 1650,
-    category: "alkaline earth metal",
+    category: "Software",
     color: null,
     density: 2.64,
     discoveredBy: "William Cruickshank (chemist)",
@@ -1588,8 +1588,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Strontium",
 
     summary:
-      "Strontium is a chemical element with symbol Sr and atomic number 38. An alkaline earth metal, strontium is a soft silver-white or yellowish metallic element that is highly reactive chemically. The metal turns yellow when it is exposed to air.",
-    symbol: "Sr",
+      "MyAdmin is a proprietary system allowing Geotab Resellers and Partners to utilize a variety of tools including view reports, browse products, open support tickets, view their devices, billing information etc.",
+    symbol: "Ma",
     group: 2,
 
     shells: [2, 8, 18, 8, 2],
@@ -1612,11 +1612,11 @@ const data: AtomInfo[] = [
     earthAbundance: 370,
   },
   {
-    name: "Yttrium",
+    name: "Dashboard Report",
     appearance: "silvery white",
     atomicMass: 88.905842,
     boil: 3203,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 4.472,
     discoveredBy: "Johan Gadolin",
@@ -1629,8 +1629,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Yttrium",
 
     summary:
-      'Yttrium is a chemical element with symbol Y and atomic number 39. It is a silvery-metallic transition metal chemically similar to the lanthanides and it has often been classified as a "rare earth element". Yttrium is almost always found combined with the lanthanides in rare earth minerals and is never found in nature as a free element.',
-    symbol: "Y",
+      "Dashboard reports can be used to suit your fleet needs. Users can get key insights into fleet operations, maintenance needs and costs for improved performance results and view them on their dashboard. ",
+    symbol: "Da",
     group: 3,
 
     shells: [2, 8, 18, 9, 2],
@@ -1654,11 +1654,11 @@ const data: AtomInfo[] = [
     earthAbundance: 33,
   },
   {
-    name: "Zirconium",
+    name: "Data Analytics",
     appearance: "silvery white",
     atomicMass: 91.2242,
     boil: 4650,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 6.52,
     discoveredBy: "Martin Heinrich Klaproth",
@@ -1671,8 +1671,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Zirconium",
 
     summary:
-      'Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun زرگون, meaning "gold-colored".',
-    symbol: "Zr",
+      "The examination or analyzation of datasets in order to draw conclusions about that data. This allows patterns and trends to be defined and gain valuable insight from the collected data.",
+    symbol: "Da",
     group: 4,
 
     shells: [2, 8, 18, 10, 2],
@@ -1683,11 +1683,11 @@ const data: AtomInfo[] = [
     earthAbundance: 165,
   },
   {
-    name: "Niobium",
+    name: "Data Feed",
     appearance: "gray metallic, bluish when oxidized",
     atomicMass: 92.906372,
     boil: 5017,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 8.57,
     discoveredBy: "Charles Hatchett",
@@ -1700,8 +1700,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Niobium",
 
     summary:
-      "Niobium, formerly columbium, is a chemical element with symbol Nb (formerly Cb) and atomic number 41. It is a soft, grey, ductile transition metal, which is often found in the pyrochlore mineral, the main commercial source for niobium, and columbite. The name comes from Greek mythology:Niobe, daughter of Tantalus since it is so similar to tantalum.",
-    symbol: "Nb",
+      "The Geotab Data Feed is the application that allows telematics data to flow from a fleet’s devices to MyGeotab for management.",
+    symbol: "Df",
     group: 5,
 
     shells: [2, 8, 18, 12, 1],
@@ -1712,11 +1712,11 @@ const data: AtomInfo[] = [
     earthAbundance: 20,
   },
   {
-    name: "Molybdenum",
+    name: "Data Normalization",
     appearance: "gray metallic",
     atomicMass: 95.951,
     boil: 4912,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 10.28,
     discoveredBy: "Carl Wilhelm Scheele",
@@ -1729,8 +1729,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Molybdenum",
 
     summary:
-      "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.",
-    symbol: "Mo",
+      "Data normalization is the process of standardizing data to provide aggregated information on various vehicle features.",
+    symbol: "Dn",
     group: 6,
 
     shells: [2, 8, 18, 13, 1],
@@ -1772,11 +1772,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1.2,
   },
   {
-    name: "Technetium",
+    name: "Data Privacy",
     appearance: "shiny gray metal",
     atomicMass: 98,
     boil: 4538,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 11,
     discoveredBy: "Emilio Segrè",
@@ -1789,8 +1789,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Technetium",
 
     summary:
-      "Technetium is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.",
-    symbol: "Tc",
+      "Strong data governance in telematics is essential to protecting the privacy of personal and vehicle data. Read why every company should be thinking about digital responsibility and data privacy.",
+    symbol: "Dp",
     group: 7,
 
     shells: [2, 8, 18, 13, 2],
@@ -1801,11 +1801,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.00000000000135,
   },
   {
-    name: "Ruthenium",
+    name: "Data Visualization",
     appearance: "silvery white metallic",
     atomicMass: 101.072,
     boil: 4423,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 12.45,
     discoveredBy: "Karl Ernst Claus",
@@ -1818,8 +1818,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Ruthenium",
 
     summary:
-      "Ruthenium is a chemical element with symbol Ru and atomic number 44. It is a rare transition metal belonging to the platinum group of the periodic table. Like the other metals of the platinum group, ruthenium is inert to most other chemicals.",
-    symbol: "Ru",
+      "Data visualization is the process of translating telematics data into a visual representation or software dashboard on the computer, to make it easier for fleets to pinpoint actions and make decisions. It shows trends on different fleet metrics, such as daily idling averages, the safest drivers over the last month, average fleet MPG, and others.",
+    symbol: "Vz",
     group: 8,
 
     shells: [2, 8, 18, 15, 1],
@@ -1830,11 +1830,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.001,
   },
   {
-    name: "Rhodium",
+    name: "Digital Transformation",
     appearance: "silvery white metallic",
     atomicMass: 102.905502,
     boil: 3968,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 12.41,
     discoveredBy: "William Hyde Wollaston",
@@ -1847,8 +1847,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Rhodium",
 
     summary:
-      "Rhodium is a chemical element with symbol Rh and atomic number 45. It is a rare, silvery-white, hard, and chemically inert transition metal. It is a member of the platinum group.",
-    symbol: "Rh",
+      "Digital transformation is a global movement in the business economy, which includes the adoption of technology, automation, and connection to real-time data for process optimization and increased competitiveness. Examples of digital transformation is the movement toward cloud data storage.",
+    symbol: "Dt",
     group: 9,
 
     shells: [2, 8, 18, 16, 1],
@@ -1859,11 +1859,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.001,
   },
   {
-    name: "Palladium",
+    name: "Encryption",
     appearance: "silvery white",
     atomicMass: 106.421,
     boil: 3236,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 12.023,
     discoveredBy: "William Hyde Wollaston",
@@ -1876,8 +1876,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Palladium",
 
     summary:
-      "Palladium is a chemical element with symbol Pd and atomic number 46. It is a rare and lustrous silvery-white metal discovered in 1803 by William Hyde Wollaston. He named it after the asteroid Pallas, which was itself named after the epithet of the Greek goddess Athena, acquired by her when she slew Pallas.",
-    symbol: "Pd",
+      "Encryption is the process of encoding a message such that only the sender and recipient would be able to view the message. To an outside party, like an attacker, this encoded message would appear as a meaningless collection of symbols. The intended recipient of the message, using a special key, can turn this collection of symbols into intelligible information. A secure communication channel can be established with the use of encryption.",
+    symbol: "En",
     group: 10,
 
     shells: [2, 8, 18, 18],
@@ -1888,11 +1888,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.015,
   },
   {
-    name: "Silver",
+    name: "FIPS 140-2 Validation",
     appearance: "lustrous white metal",
     atomicMass: 107.86822,
     boil: 2435,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 10.49,
     discoveredBy: "unknown, before 5000 BC",
@@ -1905,8 +1905,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Silver",
 
     summary:
-      "Silver is a chemical element with symbol Ag and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.",
-    symbol: "Ag",
+      "FIPS 140-2 validation is a benchmark for cryptographic modules which protects sensitive computer and telecommunication system data for the U.S. and Canadian government as well as for the military.",
+    symbol: "Fv",
     group: 11,
 
     shells: [2, 8, 18, 18, 1],
@@ -1917,11 +1917,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.075,
   },
   {
-    name: "Cadmium",
+    name: "Fleet Management",
     appearance: "silvery bluish-gray metallic",
     atomicMass: 112.4144,
     boil: 1040,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 8.65,
     discoveredBy: "Karl Samuel Leberecht Hermann",
@@ -1934,8 +1934,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Cadmium",
 
     summary:
-      "Cadmium is a chemical element with symbol Cd and atomic number 48. This soft, bluish-white metal is chemically similar to the two other stable metals in group 12, zinc and mercury. Like zinc, it prefers oxidation state +2 in most of its compounds and like mercury it shows a low melting point compared to transition metals.",
-    symbol: "Cd",
+      "Fleet management involves a series of diverse tasks for businesses who rely on transportation, aimed at controlling costs, productivity, efficiency and risks in vehicle acquisition, fuel management, compliance and more. It covers the scope of many industries from freight, to delivery, sales and service, oil & gas, and emergency services. Any business that owns or leases vehicles is engaged in some form of fleet management to provide solutions for keeping operations running efficiently, remaining competitive in the marketplace and meeting their budget goals.",
+    symbol: "Fm",
     group: 12,
 
     shells: [2, 8, 18, 18, 2],
@@ -1946,11 +1946,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.15,
   },
   {
-    name: "Indium",
+    name: "Collision Reconstruction",
     appearance: "silvery lustrous gray",
     atomicMass: 114.8181,
     boil: 2345,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 7.31,
     discoveredBy: "Ferdinand Reich",
@@ -1963,8 +1963,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Indium",
 
     summary:
-      "Indium is a chemical element with symbol In and atomic number 49. It is a post-transition metallic element that is rare in Earth's crust. The metal is very soft, malleable and easily fusible, with a melting point higher than sodium, but lower than lithium or tin.",
-    symbol: "In",
+      "Fleets can use telematics data to help reconstruct the events of a vehicle collision. Learn more on how collision detection works and how to analyze and interpret data in this white paper.",
+    symbol: "Cr",
     group: 13,
 
     shells: [2, 8, 18, 18, 3],
@@ -1975,11 +1975,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.25,
   },
   {
-    name: "Tin",
+    name: "Dash Cam",
     appearance: "silvery-white (beta) or gray (alpha)",
     atomicMass: 118.7107,
     boil: 2875,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 7.365,
     discoveredBy: "unknown, before 3500 BC",
@@ -1992,8 +1992,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Tin",
 
     summary:
-      "Tin is a chemical element with the symbol Sn (for Latin:stannum) and atomic number 50. It is a main group metal in group 14 of the periodic table. Tin shows a chemical similarity to both neighboring group-14 elements, germanium and lead, and has two possible oxidation states, +2 and the slightly more stable +4.",
-    symbol: "Sn",
+      "Dash cams (also known as dashboard cameras) are video recording devices mounted on the front dashboard of a vehicle to capture footage while a vehicle is in operation. These cameras can be installed to look out at the road, showing the vantage point of the driver, or pointed inwards to monitor driver behavior. Dash cams are useful tools in verifying a driver’s account of events during a collision or for ensuring drivers adhere to company driving standards when operating a vehicle.",
+    symbol: "Cm",
     group: 14,
 
     shells: [2, 8, 18, 18, 4],
@@ -2004,11 +2004,11 @@ const data: AtomInfo[] = [
     earthAbundance: 2.3,
   },
   {
-    name: "Antimony",
+    name: "Routing",
     appearance: "silvery lustrous gray",
     atomicMass: 121.7601,
     boil: 1908,
-    category: "metalloid",
+    category: "Productivity",
     color: null,
     density: 6.697,
     discoveredBy: "unknown, before 3000 BC",
@@ -2021,8 +2021,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Antimony",
 
     summary:
-      "Antimony is a chemical element with symbol Sb (from Latin:stibium) and atomic number 51. A lustrous gray metalloid, it is found in nature mainly as the sulfide mineral stibnite (Sb2S3). Antimony compounds have been known since ancient times and were used for cosmetics; metallic antimony was also known, but it was erroneously identified as lead upon its discovery.",
-    symbol: "Sb",
+      "Routing refers to getting each driver out on the road as fast as possible, in the right vehicle, with the right qualifications and eligibility, and completing each stop based on time frames or customer expectations.",
+    symbol: "Ro",
     group: 15,
 
     shells: [2, 8, 18, 18, 5],
@@ -2033,11 +2033,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.2,
   },
   {
-    name: "Tellurium",
+    name: "Uptime",
     appearance: null,
     atomicMass: 127.603,
     boil: 1261,
-    category: "metalloid",
+    category: "General",
     color: null,
     density: 6.24,
     discoveredBy: "Franz-Joseph Müller von Reichenstein",
@@ -2050,8 +2050,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Tellurium",
 
     summary:
-      "Tellurium is a chemical element with symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, silver-white metalloid. Tellurium is chemically related to selenium and sulfur.",
-    symbol: "Te",
+      "Time in which the vehicle is in operation and is able to perform it's intended functions or duties.",
+    symbol: "Ut",
     group: 16,
 
     shells: [2, 8, 18, 18, 6],
@@ -2062,11 +2062,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.001,
   },
   {
-    name: "Iodine",
+    name: "Keyless",
     appearance: "lustrous metallic gray, violet as a gas",
     atomicMass: 126.904473,
     boil: 457.4,
-    category: "diatomic nonmetal",
+    category: "Fleet Optimization",
     color: null,
     density: 4.933,
     discoveredBy: "Bernard Courtois",
@@ -2079,8 +2079,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Iodine",
 
     summary:
-      "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek ioeides, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.",
-    symbol: "I",
+      "The use of technology to perform actions without the use of a traditional key. Examples can include the ability to lock or unlock a vehicle from a device.",
+    symbol: "Ky",
     group: 17,
 
     shells: [2, 8, 18, 18, 7],
@@ -2091,12 +2091,12 @@ const data: AtomInfo[] = [
     earthAbundance: 0.45,
   },
   {
-    name: "Xenon",
+    name: "HOS",
     appearance:
       "colorless gas, exhibiting a blue glow when placed in a high voltage electric field",
     atomicMass: 131.2936,
     boil: 165.051,
-    category: "noble gas",
+    category: "Compliance",
     color: null,
     density: 5.894,
     discoveredBy: "William Ramsay",
@@ -2109,8 +2109,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Xenon",
 
     summary:
-      "Xenon is a chemical element with symbol Xe and atomic number 54. It is a colorless, dense, odorless noble gas, that occurs in the Earth's atmosphere in trace amounts. Although generally unreactive, xenon can undergo a few chemical reactions such as the formation of xenon hexafluoroplatinate, the first noble gas compound to be synthesized.",
-    symbol: "Xe",
+      "Hours of service (HOS) are the regulations in the commercial vehicle industry, namely for over-the-road fleets but it does cover many commercial vehicle drivers, that govern how many hours that drivers can drive and when they must take breaks. Also related to: electronic logging.",
+    symbol: "Hs",
     group: 18,
 
     shells: [2, 8, 18, 18, 8],
@@ -2121,11 +2121,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.00003,
   },
   {
-    name: "Cesium",
+    name: "OBD II",
     appearance: "silvery gold",
     atomicMass: 132.905451966,
     boil: 944,
-    category: "alkali metal",
+    category: "Hardware",
     color: null,
     density: 1.93,
     discoveredBy: "Robert Bunsen",
@@ -2138,8 +2138,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Cesium",
 
     summary:
-      "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 °C (82 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
-    symbol: "Cs",
+      "On-board diagnostics port (OBD-II) is an automotive electronic system for vehicle self-diagnosis and reporting capabilities. Read more about OBD II, the role it plays in telematics and fleet management.",
+    symbol: "Ob",
     group: 1,
 
     shells: [2, 8, 18, 18, 8, 1],
@@ -2150,11 +2150,11 @@ const data: AtomInfo[] = [
     earthAbundance: 3,
   },
   {
-    name: "Barium",
+    name: "MyGeotab",
     appearance: null,
     atomicMass: 137.3277,
     boil: 2118,
-    category: "alkaline earth metal",
+    category: "Software",
     color: null,
     density: 3.51,
     discoveredBy: "Carl Wilhelm Scheele",
@@ -2167,8 +2167,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Barium",
 
     summary:
-      "Barium is a chemical element with symbol Ba and atomic number 56. It is the fifth element in Group 2, a soft silvery metallic alkaline earth metal. Because of its high chemical reactivity barium is never found in nature as a free element.",
-    symbol: "Ba",
+      "MyGeotab is the proprietary fleet management software that pairs with the Geotab GO telematics device (though the software is device-agnostic and can be used with other telematics devices). The web-based, scalable software provides dashboards to actually view the data and trends about a fleet, view and export reports and benchmarking data. MyGeotab is at the heart of what makes the system friendly for the end user and brings value to fleet operations. View the MyGeotab Product Guide here.",
+    symbol: "My",
     group: 2,
 
     shells: [2, 8, 18, 18, 8, 2],
@@ -2179,11 +2179,11 @@ const data: AtomInfo[] = [
     earthAbundance: 425,
   },
   {
-    name: "Lanthanum",
+    name: "Alternative Fuels",
     appearance: "silvery white",
     atomicMass: 138.905477,
     boil: 3737,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 6.162,
     discoveredBy: "Carl Gustaf Mosander",
@@ -2196,8 +2196,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Lanthanum",
 
     summary:
-      "Lanthanum is a soft, ductile, silvery-white metallic chemical element with symbol La and atomic number 57. It tarnishes rapidly when exposed to air and is soft enough to be cut with a knife. It gave its name to the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table:it is also sometimes considered the first element of the 6th-period transition metals.",
-    symbol: "La",
+      "Alternative fuels is a broad term used to encompass all non-gasoline and non-diesel engine technology. Alternative fuels include fuels such as propane, compressed natural gas (CNG), biodiesel, ethanol, and hydrogen fuel cells. It also includes electric vehicles (see separate glossary term for electric vehicles). With any of these technologies, using telematics can help not only figure out which fuel would be best suited for particular vehicles or applications but then it can help benchmark and track the benefits received by switching all or part of a fleet to alternative fuels.",
+    symbol: "Af",
     group: 3,
 
     shells: [2, 8, 18, 18, 9, 2],
@@ -2208,11 +2208,11 @@ const data: AtomInfo[] = [
     earthAbundance: 39,
   },
   {
-    name: "Cerium",
+    name: "Battery Voltage",
     appearance: "silvery white",
     atomicMass: 140.1161,
     boil: 3716,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 6.77,
     discoveredBy: "Martin Heinrich Klaproth",
@@ -2225,8 +2225,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Cerium",
 
     summary:
-      "Cerium is a chemical element with symbol Ce and atomic number 58. It is a soft, silvery, ductile metal which easily oxidizes in air. Cerium was named after the dwarf planet Ceres (itself named after the Roman goddess of agriculture).",
-    symbol: "Ce",
+      "Battery voltage is one of the many items that can be tracked by a telematics system. By tracking battery voltage, you can better monitor vehicle health.",
+    symbol: "Ba",
     group: 4,
 
     shells: [2, 8, 18, 19, 9, 2],
@@ -2237,11 +2237,11 @@ const data: AtomInfo[] = [
     earthAbundance: 66.5,
   },
   {
-    name: "Praseodymium",
+    name: "BEV",
     appearance: "grayish white",
     atomicMass: 140.907662,
     boil: 3403,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 6.77,
     discoveredBy: "Carl Auer von Welsbach",
@@ -2254,8 +2254,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Praseodymium",
 
     summary:
-      "Praseodymium is a chemical element with symbol Pr and atomic number 59. Praseodymium is a soft, silvery, malleable and ductile metal in the lanthanide group. It is valued for its magnetic, electrical, chemical, and optical properties.",
-    symbol: "Pr",
+      "A battery electric vehicle (BEV) is a fully electric vehicle that does not contain an internal combustion engine (ICE). Examples of BEVs include the Nissan Leaf and Chevrolet Bolt. Every BEV has a large onboard battery that powers all vehicle functions from driving mechanics to power windows. BEVs are separated into two categories: short range and long range. Short-range BEVs have a battery size of less than 50 kWh while long-range BEVs have a battery size of over 50 kwh. For more information on how companies are adopting EVs into their fleets, see our white paper, here.",
+    symbol: "Bv",
     group: 5,
 
     shells: [2, 8, 18, 21, 8, 2],
@@ -2266,11 +2266,11 @@ const data: AtomInfo[] = [
     earthAbundance: 9.2,
   },
   {
-    name: "Neodymium",
+    name: "EV (Electric Vehicle)",
     appearance: "silvery white",
     atomicMass: 144.2423,
     boil: 3347,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 7.01,
     discoveredBy: "Carl Auer von Welsbach",
@@ -2283,8 +2283,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Neodymium",
 
     summary:
-      "Neodymium is a chemical element with symbol Nd and atomic number 60. It is a soft silvery metal that tarnishes in air. Neodymium was discovered in 1885 by the Austrian chemist Carl Auer von Welsbach.",
-    symbol: "Nd",
+      "Electric vehicles (EV) are cars, trucks or other transportation vehicles that rely on full or partial battery power. There are several types of electric vehicles, including hybrid electric vehicles (HEV), battery electric vehicles (BEV) and plug-in hybrid vehicles (PHEV). Learn more about Geotab and EVs here.",
+    symbol: "Ev",
     group: 6,
 
     shells: [2, 8, 18, 22, 8, 2],
@@ -2295,11 +2295,11 @@ const data: AtomInfo[] = [
     earthAbundance: 41.5,
   },
   {
-    name: "Promethium",
+    name: "EV Range",
     appearance: "metallic",
     atomicMass: 145,
     boil: 3273,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 7.26,
     discoveredBy: "Chien Shiung Wu",
@@ -2312,8 +2312,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Promethium",
 
     summary:
-      "Promethium, originally prometheum, is a chemical element with the symbol Pm and atomic number 61. All of its isotopes are radioactive; it is one of only two such elements that are followed in the periodic table by elements with stable forms, a distinction shared with technetium. Chemically, promethium is a lanthanide, which forms salts when combined with other elements.",
-    symbol: "Pm",
+      "This is the amount of range that a vehicle can travel based on their electric battery charge. The amount of range that a vehicle has can depend on various amounts of driving factors including aggressive driving, up slope driving, air conditioner use or extra weight in the vehicle.",
+    symbol: "Er",
     group: 7,
 
     shells: [2, 8, 18, 23, 8, 2],
@@ -2324,11 +2324,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.00000000000000002,
   },
   {
-    name: "Samarium",
+    name: "EVSA",
     appearance: "silvery white",
     atomicMass: 150.362,
     boil: 2173,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 7.52,
     discoveredBy: "Lecoq de Boisbaudran",
@@ -2341,8 +2341,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Samarium",
 
     summary:
-      "Samarium is a chemical element with symbol Sm and atomic number 62. It is a moderately hard silvery metal that readily oxidizes in air. Being a typical member of the lanthanide series, samarium usually assumes the oxidation state +3.",
-    symbol: "Sm",
+      "An Electric Vehicle Suitability Assessment (EVSA) is a proprietary customized, interactive tool from Geotab that provides EV make and model recommendations for fleets. The tool is powered by Geotab’s largest collected EV telematics dataset in the world and takes into consideration: EV availability in the local market, EV performance in extreme weather conditions, financials related to procuring the EVs and more.",
+    symbol: "Ea",
     group: 8,
 
     shells: [2, 8, 18, 24, 8, 2],
@@ -2353,11 +2353,11 @@ const data: AtomInfo[] = [
     earthAbundance: 7.05,
   },
   {
-    name: "Europium",
+    name: "EVSE",
     appearance: null,
     atomicMass: 151.9641,
     boil: 1802,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 5.264,
     discoveredBy: "Eugène-Anatole Demarçay",
@@ -2370,8 +2370,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Europium",
 
     summary:
-      "Europium is a chemical element with symbol Eu and atomic number 63. It was isolated in 1901 and is named after the continent of Europe. It is a moderately hard, silvery metal which readily oxidizes in air and water.",
-    symbol: "Eu",
+      "An electric vehicle supply equipment (EVSE) is the intermediary between a power source and the vehicle’s charging port. It is typically mounted on a wall or raised on a pedestal. Its role is to safely relay the alternating current (AC) power to the vehicle.",
+    symbol: "Ee",
     group: 9,
 
     shells: [2, 8, 18, 25, 8, 2],
@@ -2382,11 +2382,11 @@ const data: AtomInfo[] = [
     earthAbundance: 2.0,
   },
   {
-    name: "Gadolinium",
+    name: "EVSP",
     appearance: "silvery white",
     atomicMass: 157.253,
     boil: 3273,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 7.9,
     discoveredBy: "Jean Charles Galissard de Marignac",
@@ -2399,8 +2399,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Gadolinium",
 
     summary:
-      "Gadolinium is a chemical element with symbol Gd and atomic number 64. It is a silvery-white, malleable and ductile rare-earth metal. It is found in nature only in combined (salt) form.",
-    symbol: "Gd",
+      "An electric vehicle service provider (EVSP) provides connectivity across a network of charging stations. Connecting to a central server, they manage the software, database and communication interfaces that enable operation of the station.",
+    symbol: "Ep",
     group: 10,
 
     shells: [2, 8, 18, 25, 9, 2],
@@ -2411,11 +2411,11 @@ const data: AtomInfo[] = [
     earthAbundance: 6.2,
   },
   {
-    name: "Terbium",
+    name: "Fleet Electrification",
     appearance: "silvery white",
     atomicMass: 158.925352,
     boil: 3396,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 8.23,
     discoveredBy: "Carl Gustaf Mosander",
@@ -2428,8 +2428,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Terbium",
 
     summary:
-      "Terbium is a chemical element with symbol Tb and atomic number 65. It is a silvery-white rare earth metal that is malleable, ductile and soft enough to be cut with a knife. Terbium is never found in nature as a free element, but it is contained in many minerals, including cerite, gadolinite, monazite, xenotime and euxenite.",
-    symbol: "Tb",
+      "Fleet electrification refers to the switchover of fleets from internal combustion engines (ICE) to electric vehicles (EVs). Electrifying a fleet can help to maximize fleet efficiency and contribute to green initiatives within the transportation industry. For more information on fleet electrification, see our blog post here.",
+    symbol: "Fe",
     group: 11,
 
     shells: [2, 8, 18, 27, 8, 2],
@@ -2440,11 +2440,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1.2,
   },
   {
-    name: "Dysprosium",
+    name: "Green Fleet",
     appearance: "silvery white",
     atomicMass: 162.5001,
     boil: 2840,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 8.54,
     discoveredBy: "Lecoq de Boisbaudran",
@@ -2457,8 +2457,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Dysprosium",
 
     summary:
-      "Dysprosium is a chemical element with the symbol Dy and atomic number 66. It is a rare earth element with a metallic silver luster. Dysprosium is never found in nature as a free element, though it is found in various minerals, such as xenotime.",
-    symbol: "Dy",
+      "“Green fleet” is a term used to reference fleets that are focused on sustainability, with goals to reduce environmental impact, through initiatives such as decreasing greenhouse gas emissions and fuel consumption, and electric vehicle adoption. See also: 30 tips for green fleets.",
+    symbol: "Gf",
     group: 12,
 
     shells: [2, 8, 18, 28, 8, 2],
@@ -2469,11 +2469,11 @@ const data: AtomInfo[] = [
     earthAbundance: 5.2,
   },
   {
-    name: "Holmium",
+    name: "HEV",
     appearance: "silvery white",
     atomicMass: 164.930332,
     boil: 2873,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 8.79,
     discoveredBy: "Marc Delafontaine",
@@ -2486,8 +2486,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Holmium",
 
     summary:
-      "Holmium is a chemical element with symbol Ho and atomic number 67. Part of the lanthanide series, holmium is a rare earth element. Holmium was discovered by Swedish chemist Per Theodor Cleve.",
-    symbol: "Ho",
+      "A hybrid electric vehicle (HEV) is a vehicle that contains both an onboard battery and an internal combustion engine (ICE). An example of an HEV is the Toyota Prius. HEVs contain small onboard batteries that are charged via regenerative braking and cannot be charged externally. The included battery is only used when idling or when the car begins moving from a stopped position. To learn more about the efficiency of HEVs, see our blog post here.",
+    symbol: "Hv",
     group: 13,
 
     shells: [2, 8, 18, 29, 8, 2],
@@ -2498,11 +2498,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1.3,
   },
   {
-    name: "Erbium",
+    name: "kWh Per Mile",
     appearance: "silvery white",
     atomicMass: 167.2593,
     boil: 3141,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 9.066,
     discoveredBy: "Carl Gustaf Mosander",
@@ -2515,8 +2515,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Erbium",
 
     summary:
-      "Erbium is a chemical element in the lanthanide series, with symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements on Earth. As such, it is a rare earth element which is associated with several other rare elements in the mineral gadolinite from Ytterby in Sweden, where yttrium, ytterbium, and terbium were discovered.",
-    symbol: "Er",
+      "The kilowatt-hours per mile (kWh per mile) represents how much electricity an EV uses in one mile driven, indicating its fuel efficiency.",
+    symbol: "Kh",
     group: 14,
 
     shells: [2, 8, 18, 30, 8, 2],
@@ -2527,11 +2527,11 @@ const data: AtomInfo[] = [
     earthAbundance: 3.5,
   },
   {
-    name: "Thulium",
+    name: "Maximum Range",
     appearance: "silvery gray",
     atomicMass: 168.934222,
     boil: 2223,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 9.32,
     discoveredBy: "Per Teodor Cleve",
@@ -2544,8 +2544,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Thulium",
 
     summary:
-      "Thulium is a chemical element with symbol Tm and atomic number 69. It is the thirteenth and antepenultimate (third-last) element in the lanthanide series. Like the other lanthanides, the most common oxidation state is +3, seen in its oxide, halides and other compounds.",
-    symbol: "Tm",
+      "The total number of miles an EV can be driven before it needs to stop and recharge. The maximum range is determined by a number of different factors including temperature, operating climate and vehicle age. The older a vehicle is, the more susceptible it is to battery degradation, which can lessen the maximum range over time.",
+    symbol: "Mr",
     group: 15,
 
     shells: [2, 8, 18, 31, 8, 2],
@@ -2556,11 +2556,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.52,
   },
   {
-    name: "Ytterbium",
+    name: "MPGe",
     appearance: null,
     atomicMass: 173.0451,
     boil: 1469,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 6.9,
     discoveredBy: "Jean Charles Galissard de Marignac",
@@ -2573,8 +2573,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Ytterbium",
 
     summary:
-      "Ytterbium is a chemical element with symbol Yb and atomic number 70. It is the fourteenth and penultimate element in the lanthanide series, which is the basis of the relative stability of its +2 oxidation state. However, like the other lanthanides, its most common oxidation state is +3, seen in its oxide, halides and other compounds.",
-    symbol: "Yb",
+      "Miles per gallon of gasoline-equivalent (MPGe) is a metric used by the Environmental Protection Agency (EPA) to compare the fuel economy of EVs and other alternative fuel vehicles with gas-powered vehicles.",
+    symbol: "Me",
     group: 16,
 
     shells: [2, 8, 18, 32, 8, 2],
@@ -2585,11 +2585,11 @@ const data: AtomInfo[] = [
     earthAbundance: 3.2,
   },
   {
-    name: "Lutetium",
+    name: "PHEV",
     appearance: "silvery white",
     atomicMass: 174.96681,
     boil: 3675,
-    category: "lanthanide",
+    category: "Sustainability",
     color: null,
     density: 9.841,
     discoveredBy: "Georges Urbain",
@@ -2602,8 +2602,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Lutetium",
 
     summary:
-      "Lutetium is a chemical element with symbol Lu and atomic number 71. It is a silvery white metal, which resists corrosion in dry, but not in moist air. It is considered the first element of the 6th-period transition metals and the last element in the lanthanide series, and is traditionally counted among the rare earths.",
-    symbol: "Lu",
+      "A plug-in hybrid electric vehicle (PHEV) has a two-part drive system, including an electric drive and a small internal combustion engine running on fuel. The two main other types of EVs are hybrid electric vehicles (HEV) and battery electric vehicles (BEV).",
+    symbol: "Pv",
     group: 17,
 
     shells: [2, 8, 18, 32, 9, 2],
@@ -2614,11 +2614,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.8,
   },
   {
-    name: "Hafnium",
+    name: "Fleet Tracking",
     appearance: "steel gray",
     atomicMass: 178.492,
     boil: 4876,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 13.31,
     discoveredBy: "Dirk Coster",
@@ -2631,8 +2631,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Hafnium",
 
     summary:
-      "Hafnium is a chemical element with symbol Hf and atomic number 72. A lustrous, silvery gray, tetravalent transition metal, hafnium chemically resembles zirconium and is found in zirconium minerals. Its existence was predicted by Dmitri Mendeleev in 1869, though it was not identified until 1923, making it the penultimate stable element to be discovered (rhenium was identified two years later).",
-    symbol: "Hf",
+      "Fleet tracking is the use of a vehicle tracking device and software to monitor and manage a fleet of vehicles. Through fleet tracking, a fleet manager or business owner can collect data on location and vehicle health.",
+    symbol: "Ft",
     group: 4,
 
     shells: [2, 8, 18, 32, 10, 2],
@@ -2643,11 +2643,11 @@ const data: AtomInfo[] = [
     earthAbundance: 3.0,
   },
   {
-    name: "Tantalum",
+    name: "G-force",
     appearance: "gray blue",
     atomicMass: 180.947882,
     boil: 5731,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 16.69,
     discoveredBy: "Anders Gustaf Ekeberg",
@@ -2660,8 +2660,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Tantalum",
 
     summary:
-      "Tantalum is a chemical element with symbol Ta and atomic number 73. Previously known as tantalium, its name comes from Tantalus, an antihero from Greek mythology. Tantalum is a rare, hard, blue-gray, lustrous transition metal that is highly corrosion-resistant.",
-    symbol: "Ta",
+      "Measured by an accelerometer, G-force is the movement of the vehicle and acceleration, whether left/right, up/down, forward/back. This information helps fleets reconstruct accidents. Read all about G-force and how it helps understand dangerous driving behaviors here.",
+    symbol: "Fo",
     group: 5,
 
     shells: [2, 8, 18, 32, 11, 2],
@@ -2672,11 +2672,11 @@ const data: AtomInfo[] = [
     earthAbundance: 2.0,
   },
   {
-    name: "Tungsten",
+    name: "GAVDA",
     appearance: "grayish white, lustrous",
     atomicMass: 183.841,
     boil: 6203,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 19.25,
     discoveredBy: "Carl Wilhelm Scheele",
@@ -2689,8 +2689,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Tungsten",
 
     summary:
-      "Tungsten, also known as wolfram, is a chemical element with symbol W and atomic number 74. The word tungsten comes from the Swedish language tung sten, which directly translates to heavy stone. Its name in Swedish is volfram, however, in order to distinguish it from scheelite, which in Swedish is alternatively named tungsten.",
-    symbol: "W",
+      "GAVDA stands for the Global Alliance for Vehicle Data Access, a group that works to preserve and enhance the open, secure, technology-neutral and direct access by vehicle owners to real-time data.",
+    symbol: "Gv",
     group: 6,
 
     shells: [2, 8, 18, 32, 12, 2],
@@ -2701,11 +2701,11 @@ const data: AtomInfo[] = [
     earthAbundance: 1.25,
   },
   {
-    name: "Rhenium",
+    name: "GPS",
     appearance: "silvery-grayish",
     atomicMass: 186.2071,
     boil: 5869,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 21.02,
     discoveredBy: "Masataka Ogawa",
@@ -2718,8 +2718,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Rhenium",
 
     summary:
-      "Rhenium is a chemical element with symbol Re and atomic number 75. It is a silvery-white, heavy, third-row transition metal in group 7 of the periodic table. With an estimated average concentration of 1 part per billion (ppb), rhenium is one of the rarest elements in the Earth's crust.",
-    symbol: "Re",
+      "GPS, or the global positioning system, is a navigation network of satellites, monitoring stations, and receivers used to transmit global location data. GPS is used in devices like cell phones and in-car navigation systems to help track location and provide directions from point A to point B.",
+    symbol: "Gp",
     group: 7,
 
     shells: [2, 8, 18, 32, 13, 2],
@@ -2730,11 +2730,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0007,
   },
   {
-    name: "Osmium",
+    name: "Internal Combustion Engine",
     appearance: "silvery, blue cast",
     atomicMass: 190.233,
     boil: 5285,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 22.59,
     discoveredBy: "Smithson Tennant",
@@ -2747,8 +2747,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Osmium",
 
     summary:
-      'Osmium (from Greek osme meaning "smell") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.',
-    symbol: "Os",
+      "An internal combustion engine (ICE) is a traditional engine powered by gasoline, diesel, or organic material-based fuels. They are the most commonly used type of engine on the road, even with the rise of electric vehicles (EV). Vehicles that have an ICE generally require substantially more maintenance than EVs as they are made up of multiple moving parts that work to power the vehicle. ICEs are much more efficient now that when they were first invented, but are still nowhere near as efficient as EVs. For more information, see our blog on hybrid vs. conventional vehicles.",
+    symbol: "Ic",
     group: 8,
 
     shells: [2, 8, 18, 32, 14, 2],
@@ -2759,11 +2759,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0015,
   },
   {
-    name: "Iridium",
+    name: "IoT",
     appearance: "silvery white",
     atomicMass: 192.2173,
     boil: 4403,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 22.56,
     discoveredBy: "Smithson Tennant",
@@ -2776,8 +2776,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Iridium",
 
     summary:
-      "Iridium is a chemical element with symbol Ir and atomic number 77. A very hard, brittle, silvery-white transition metal of the platinum group, iridium is generally credited with being the second densest element (after osmium) based on measured density, although calculations involving the space lattices of the elements show that iridium is denser. It is also the most corrosion-resistant metal, even at temperatures as high as 2000 °C.",
-    symbol: "Ir",
+      "The Internet of Things (IoT) is the trend toward “smart” products, from smart products in your home such as refrigerators and lights, to products used in transportation such as smart traffic signals that can modify signal timing based on traffic flows throughout the day. Other examples of IoT in the automotive industry are car sharing companies, where a user can reserve, unlock and rent a vehicle through an app on their phone. Read here for more about how IoT is affecting the automotive industry.",
+    symbol: "It",
     group: 9,
 
     shells: [2, 8, 18, 32, 15, 2],
@@ -2788,11 +2788,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.001,
   },
   {
-    name: "Platinum",
+    name: "J1939",
     appearance: "silvery white",
     atomicMass: 195.0849,
     boil: 4098,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 21.45,
     discoveredBy: "Antonio de Ulloa",
@@ -2805,8 +2805,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Platinum",
 
     summary:
-      'Platinum is a chemical element with symbol Pt and atomic number 78. It is a dense, malleable, ductile, highly unreactive, precious, gray-white transition metal. Its name is derived from the Spanish term platina, which is literally translated into "little silver".',
-    symbol: "Pt",
+      "The J1939 standard was developed by SAE International to create consistency in how different components in a vehicle communicate with each other. The standard is used in conjunction with the controller area network bus (CAN bus) system for medium and heavy-duty commercial vehicles to send and receive signals within a vehicle. Included within J1939 is the digital annex (DA), which defines thousands of signals used on a CAN bus.",
+    symbol: "J1",
     group: 10,
 
     shells: [2, 8, 18, 32, 17, 1],
@@ -2817,11 +2817,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.005,
   },
   {
-    name: "Gold",
+    name: "Machine Learning",
     appearance: "metallic yellow",
     atomicMass: 196.9665695,
     boil: 3243,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 19.3,
     discoveredBy: "Middle East",
@@ -2834,8 +2834,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Gold",
 
     summary:
-      "Gold is a chemical element with symbol Au (from Latin:aurum) and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
-    symbol: "Au",
+      "Machine learning is what makes modern predictive modeling possible, meaning that through historical data, a computer/artificial intelligence can learn about what’s most likely to happen next. Machine learning is one aspect to autonomous vehicle technology that makes it more than just sensors and cameras. It can continue to learn more and more about the roads it travels on and use that for later trips when the vehicle is on that road again.",
+    symbol: "Ml",
     group: 11,
 
     shells: [2, 8, 18, 32, 18, 1],
@@ -2846,11 +2846,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.004,
   },
   {
-    name: "Mercury",
+    name: "MPG",
     appearance: "silvery",
     atomicMass: 200.5923,
     boil: 629.88,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 13.534,
     discoveredBy: "unknown, before 2000 BCE",
@@ -2863,8 +2863,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Mercury (Element)",
 
     summary:
-      "Mercury is a chemical element with symbol Hg and atomic number 80. It is commonly known as quicksilver and was formerly named hydrargyrum. A heavy, silvery d-block element, mercury is the only metallic element that is liquid at standard conditions for temperature and pressure; the only other element that is liquid under these conditions is bromine, though metals such as caesium, gallium, and rubidium melt just above room temperature.",
-    symbol: "Hg",
+      "MPG (miles per gallon) refers to the distance (measured in miles) in which a vehicle travels, per gallon of fuel that is used.",
+    symbol: "Mg",
     group: 12,
 
     shells: [2, 8, 18, 32, 18, 2],
@@ -2875,11 +2875,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.085,
   },
   {
-    name: "Thallium",
+    name: "Distracted Driving",
     appearance: "silvery white",
     atomicMass: 204.38,
     boil: 1746,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 11.85,
     discoveredBy: "William Crookes",
@@ -2892,8 +2892,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Thallium",
 
     summary:
-      "Thallium is a chemical element with symbol Tl and atomic number 81. This soft gray post-transition metal is not found free in nature. When isolated, it resembles tin, but discolors when exposed to air.",
-    symbol: "Tl",
+      "Distracted driving is a serious and dangerous offense, punishable by law in many countries, and can be defined as driving and using a phone or texting, eating, or another activity that takes a driver’s eyes off the road or hands off the wheel. Read more distracted driving facts.",
+    symbol: "Dd",
     group: 13,
 
     shells: [2, 8, 18, 32, 18, 3],
@@ -2904,11 +2904,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.85,
   },
   {
-    name: "Lead",
+    name: "Driver Coaching",
     appearance: "metallic gray",
     atomicMass: 207.21,
     boil: 2022,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 11.34,
     discoveredBy: "Middle East",
@@ -2921,8 +2921,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Lead_(element)",
 
     summary:
-      "Lead is a chemical element in the carbon group with symbol Pb (from Latin:plumbum) and atomic number 82. Lead is a soft, malleable and heavy post-transition metal. Metallic lead has a bluish-white color after being freshly cut, but it soon tarnishes to a dull grayish color when exposed to air.",
-    symbol: "Pb",
+      "Driver coaching includes tools that can provide insight and training direction to drivers. Fleet managers can help ensure that their drivers are being safe on the roads, and includes features such as in-vehicle driver feedback and detection alerts for risky driving behaviours. Top driving behaviours can also be monitored to help managers identify their top performers.",
+    symbol: "Dc",
     group: 14,
 
     shells: [2, 8, 18, 32, 18, 4],
@@ -2933,11 +2933,11 @@ const data: AtomInfo[] = [
     earthAbundance: 14,
   },
   {
-    name: "Bismuth",
+    name: "Driver Feedback",
     appearance: "lustrous silver",
     atomicMass: 208.980401,
     boil: 1837,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 9.78,
     discoveredBy: "Claude François Geoffroy",
@@ -2950,8 +2950,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Bismuth",
 
     summary:
-      "Bismuth is a chemical element with symbol Bi and atomic number 83. Bismuth, a pentavalent post-transition metal, chemically resembles arsenic and antimony. Elemental bismuth may occur naturally, although its sulfide and oxide form important commercial ores.",
-    symbol: "Bi",
+      "Driver feedback refers to the use of technology to notify a driver of driving errors through audible beeps or spoken messages to help promote safety on the road. Feedback can be paired with driver management and training solutions to further improve behavior and help reduce collisions. See also: How to get driver buy-in on driver scorecards.",
+    symbol: "Fb",
     group: 15,
 
     shells: [2, 8, 18, 32, 18, 5],
@@ -2962,11 +2962,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0085,
   },
   {
-    name: "Polonium",
+    name: "Zones",
     appearance: "silvery",
     atomicMass: 209,
     boil: 1235,
-    category: "post-transition metal",
+    category: "Productivity",
     color: null,
     density: 9.196,
     discoveredBy: "Pierre Curie",
@@ -2979,8 +2979,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Polonium",
 
     summary:
-      "Polonium is a chemical element with symbol Po and atomic number 84, discovered in 1898 by Marie Curie and Pierre Curie. A rare and highly radioactive element with no stable isotopes, polonium is chemically similar to bismuth and tellurium, and it occurs in uranium ores. Applications of polonium are few.",
-    symbol: "Po",
+      "Creating a zone is a key functionality in telematics software and allows fleet managers to track metrics on productivity, such as how long a truck was stopped at a customer location for a drop-off.",
+    symbol: "Zn",
     group: 16,
 
     shells: [2, 8, 18, 32, 18, 6],
@@ -2991,11 +2991,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0000000002,
   },
   {
-    name: "Astatine",
+    name: "Preventative Maintenance",
     appearance: "unknown, probably metallic",
     atomicMass: 210,
     boil: 610,
-    category: "metalloid",
+    category: "Fleet Optimization",
     color: null,
     density: 6.35,
     discoveredBy: "Dale R. Corson",
@@ -3008,8 +3008,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Astatine",
 
     summary:
-      "Astatine is a very rare radioactive chemical element with the chemical symbol At and atomic number 85. It occurs on Earth as the decay product of various heavier elements. All its isotopes are short-lived; the most stable is astatine-210, with a half-life of 8.1 hours.",
-    symbol: "At",
+      "Preventive maintenance is the scheduled maintenance to regularly check a vehicle for potential problems. Getting the oil changed is just one part of a preventive maintenance check. Other tasks include checking all fluid levels, brakes, tires, and so on. Telematics goes hand in hand with preventive maintenance because fleets can keep track of maintenance scheduling and even get alerts when the engine triggers a diagnostic trouble code, which means there could be something wrong with the vehicle. Fleet can then get the vehicle into the shop, while a technician can already diagnose the problem before the vehicle even gets there.",
+    symbol: "Pm",
     group: 17,
 
     shells: [2, 8, 18, 32, 18, 7],
@@ -3020,12 +3020,12 @@ const data: AtomInfo[] = [
     earthAbundance: 0.00000000000000000003,
   },
   {
-    name: "Radon",
+    name: "IFTA",
     appearance:
       "colorless gas, occasionally glows green or red in discharge tubes",
     atomicMass: 222,
     boil: 211.5,
-    category: "noble gas",
+    category: "Compliance",
     color: null,
     density: 9.73,
     discoveredBy: "Friedrich Ernst Dorn",
@@ -3038,8 +3038,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Radon",
 
     summary:
-      "Radon is a chemical element with symbol Rn and atomic number 86. It is a radioactive, colorless, odorless, tasteless noble gas, occurring naturally as a decay product of radium. Its most stable isotope, 222Rn, has a half-life of 3.8 days.",
-    symbol: "Rn",
+      "The International Fuel Tax Agreement (IFTA) is a fuel tax paid by interstate commercial carriers. The purpose is to use the funds to help keep U.S. and Canada highways funded and maintained. There are 48 American jurisdictions (states) and 10 Canadian jurisdictions (provinces) that are currently members of IFTA. Telematics can significantly help with IFTA compliance and reporting by tracking miles and fuel use.",
+    symbol: "If",
     group: 18,
 
     shells: [2, 8, 18, 32, 18, 8],
@@ -3050,11 +3050,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0000000000004,
   },
   {
-    name: "Francium",
+    name: "OEM",
     appearance: null,
     atomicMass: 223,
     boil: 950,
-    category: "alkali metal",
+    category: "Hardware",
     color: null,
     density: 1.87,
     discoveredBy: "Marguerite Perey",
@@ -3067,8 +3067,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Francium",
 
     summary:
-      "Francium is a chemical element with symbol Fr and atomic number 87. It used to be known as eka-caesium and actinium K. It is the second-least electronegative element, behind only caesium. Francium is a highly radioactive metal that decays into astatine, radium, and radon.",
-    symbol: "Fr",
+      "The term “original equipment manufacturer,” abbreviated as “OEM,” refers to companies that produce cars and trucks and also those that manufacture parts and equipment for vehicles. For more information on how Geotab integrates with third-party information provided through built-in OEM devices, read this article.",
+    symbol: "Oe",
     group: 1,
 
     shells: [2, 8, 18, 32, 18, 8, 1],
@@ -3079,11 +3079,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.000000000000000001,
   },
   {
-    name: "Radium",
+    name: "Web-based",
     appearance: "silvery white metallic",
     atomicMass: 226,
     boil: 2010,
-    category: "alkaline earth metal",
+    category: "Software",
     color: null,
     density: 5.5,
     discoveredBy: "Pierre Curie",
@@ -3096,8 +3096,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Radium",
 
     summary:
-      "Radium is a chemical element with symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals. Pure radium is almost colorless, but it readily combines with nitrogen (rather than oxygen) on exposure to air, forming a black surface layer of radium nitride (Ra3N2).",
-    symbol: "Ra",
+      "Web-based software is software which is used over a web browser on the Internet. Web-based software generally does not require anything to be installed, downloaded or upgrading.",
+    symbol: "Wb",
     group: 2,
 
     shells: [2, 8, 18, 32, 18, 8, 2],
@@ -3108,11 +3108,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0000009,
   },
   {
-    name: "Actinium",
+    name: "Range Anxiety",
     appearance: null,
     atomicMass: 227,
     boil: 3500,
-    category: "actinide",
+    category: "Sustainability",
     color: null,
     density: 10,
     discoveredBy: "Friedrich Oskar Giesel",
@@ -3125,8 +3125,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Actinium",
 
     summary:
-      "Actinium is a radioactive chemical element with symbol Ac (not to be confused with the abbreviation for an acetyl group) and atomic number 89, which was discovered in 1899. It was the first non-primordial radioactive element to be isolated. Polonium, radium and radon were observed before actinium, but they were not isolated until 1902.",
-    symbol: "Ac",
+      "Range anxiety refers to an EV driver’s fear of running out of electricity before the end of a trip.",
+    symbol: "Ra",
     group: 3,
 
     shells: [2, 8, 18, 32, 18, 9, 2],
@@ -3137,11 +3137,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0000000000006,
   },
   {
-    name: "Thorium",
+    name: "SOC",
     appearance: "silvery, often with black tarnish",
     atomicMass: 232.03774,
     boil: 5061,
-    category: "actinide",
+    category: "Sustainability",
     color: null,
     density: 11.724,
     discoveredBy: "Jöns Jakob Berzelius",
@@ -3154,8 +3154,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Thorium",
 
     summary:
-      "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
-    symbol: "Th",
+      "State of charge (SOC) refers to the amount of battery power left in an EV, as measured in percentage. Read here for more on how one UK fleet used Geotab devices to better track their SOC.",
+    symbol: "So",
     group: 4,
 
     shells: [2, 8, 18, 32, 18, 10, 2],
@@ -3166,11 +3166,11 @@ const data: AtomInfo[] = [
     earthAbundance: 9.6,
   },
   {
-    name: "Protactinium",
+    name: "Sustainability",
     appearance: "bright, silvery metallic luster",
     atomicMass: 231.035882,
     boil: 4300,
-    category: "actinide",
+    category: "Sustainability",
     color: null,
     density: 15.37,
     discoveredBy: "William Crookes",
@@ -3183,8 +3183,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Protactinium",
 
     summary:
-      "Protactinium is a chemical element with symbol Pa and atomic number 91. It is a dense, silvery-gray metal which readily reacts with oxygen, water vapor and inorganic acids. It forms various chemical compounds where protactinium is usually present in the oxidation state +5, but can also assume +4 and even +2 or +3 states.",
-    symbol: "Pa",
+      "Sustainable fleet management is the practice of focusing and reducing environmental impact by making fleet enhancements and using management tools for fuel and CO2 emissions tracking, route optimization, as well as through electric vehicle adoption.",
+    symbol: "Ss",
     group: 5,
 
     shells: [2, 8, 18, 32, 20, 9, 2],
@@ -3195,11 +3195,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.0000014,
   },
   {
-    name: "Uranium",
+    name: "ULEZ",
     appearance: null,
     atomicMass: 238.028913,
     boil: 4404,
-    category: "actinide",
+    category: "Sustainability",
     color: null,
     density: 19.1,
     discoveredBy: "Martin Heinrich Klaproth",
@@ -3212,8 +3212,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Uranium",
 
     summary:
-      "Uranium is a chemical element with symbol U and atomic number 92. It is a silvery-white metal in the actinide series of the periodic table. A uranium atom has 92 protons and 92 electrons, of which 6 are valence electrons.",
-    symbol: "U",
+      "The Ultra Low Emission Zone (ULEZ) is an area in Central London where drivers must pay a daily fee for driving within the zone. The initiative was put in place to improve air quality in this heavily populated area and encourage the use of more environmentally friendly vehicles. For more information on how the UK is encouraging green fleets, read this whitepaper.",
+    symbol: "Uz",
     group: 6,
 
     shells: [2, 8, 18, 32, 21, 9, 2],
@@ -3224,11 +3224,11 @@ const data: AtomInfo[] = [
     earthAbundance: 2.7,
   },
   {
-    name: "Neptunium",
+    name: "Zero-emissions",
     appearance: "silvery metallic",
     atomicMass: 237,
     boil: 4447,
-    category: "actinide",
+    category: "Sustainability",
     color: null,
     density: 20.45,
     discoveredBy: "Edwin McMillan",
@@ -3241,8 +3241,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Neptunium",
 
     summary:
-      "Neptunium is a chemical element with symbol Np and atomic number 93. A radioactive actinide metal, neptunium is the first transuranic element. Its position in the periodic table just after uranium, named after the planet Uranus, led to it being named after Neptune, the next planet beyond Uranus.",
-    symbol: "Np",
+      "Zero-emissions refers to a global movement towards sustainability based on EVs generating lower or zero greenhouse gas emissions and use of other clean, sustainable technology. For more information on the road to zero-emissions, see here.",
+    symbol: "Ze",
     group: 7,
 
     shells: [2, 8, 18, 32, 22, 9, 2],
@@ -3253,11 +3253,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.000000000003,
   },
   {
-    name: "Plutonium",
+    name: "API",
     appearance: "silvery white, tarnishing to dark gray in air",
     atomicMass: 244,
     boil: 3505,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: 19.816,
     discoveredBy: "Glenn T. Seaborg",
@@ -3270,8 +3270,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Plutonium",
 
     summary:
-      "Plutonium is a transuranic radioactive chemical element with symbol Pu and atomic number 94. It is an actinide metal of silvery-gray appearance that tarnishes when exposed to air, and forms a dull coating when oxidized. The element normally exhibits six allotropes and four oxidation states.",
-    symbol: "Pu",
+      "APIs are essential for integration of fleet management systems. An API, or application programming interface, is the language a computer uses to tell the system what data to pull. These languages must be able to talk to each other for an integration to occur. A good example of a successful integration is also seeing temperature tracking information on reefer units in your telematics dashboard.",
+    symbol: "Ap",
     group: 8,
 
     shells: [2, 8, 18, 32, 24, 8, 2],
@@ -3282,11 +3282,11 @@ const data: AtomInfo[] = [
     earthAbundance: 0.00000000003,
   },
   {
-    name: "Americium",
+    name: "Expandability",
     appearance: "silvery white",
     atomicMass: 243,
     boil: 2880,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: 12,
     discoveredBy: "Glenn T. Seaborg",
@@ -3299,8 +3299,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Americium",
 
     summary:
-      "Americium is a radioactive transuranic chemical element with symbol Am and atomic number 95. This member of the actinide series is located in the periodic table under the lanthanide element europium, and thus by analogy was named after the Americas. Americium was first produced in 1944 by the group of Glenn T.Seaborg from Berkeley, California, at the metallurgical laboratory of University of Chicago.",
-    symbol: "Am",
+      "Expandability refers to technology that supports additional integrations with other software or hardware to extend capabilities. To learn about specific expandability options for Geotab, read about the Geotab OEM data platform, our Guide to Geotab IOX Add-Ons, or visit the Marketplace.",
+    symbol: "Ex",
     group: 9,
 
     shells: [2, 8, 18, 32, 25, 8, 2],
@@ -3311,11 +3311,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Curium",
+    name: "Hardware Integration",
     appearance: "silvery metallic, glows purple in the dark",
     atomicMass: 247,
     boil: 3383,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: 13.51,
     discoveredBy: "Glenn T. Seaborg",
@@ -3328,8 +3328,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Curium",
 
     summary:
-      "Curium is a transuranic radioactive chemical element with symbol Cm and atomic number 96. This element of the actinide series was named after Marie and Pierre Curie – both were known for their research on radioactivity. Curium was first intentionally produced and identified in July 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley.",
-    symbol: "Cm",
+      "This is where third-party hardware can integrate into one connected telematics platform. Vehicle data can all be consolidated through a single device.",
+    symbol: "Hi",
     group: 10,
 
     shells: [2, 8, 18, 32, 25, 9, 2],
@@ -3340,11 +3340,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Berkelium",
+    name: "Interoperability",
     appearance: "silvery",
     atomicMass: 247,
     boil: 2900,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: 14.78,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3357,8 +3357,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Berkelium",
 
     summary:
-      "Berkelium is a transuranic radioactive chemical element with symbol Bk and atomic number 97. It is a member of the actinide and transuranium element series. It is named after the city of Berkeley, California, the location of the University of California Radiation Laboratory where it was discovered in December 1949.",
-    symbol: "Bk",
+      "The ability of systems to communicate and work with each other and make use of that information.",
+    symbol: "Io",
     group: 11,
 
     shells: [2, 8, 18, 32, 27, 8, 2],
@@ -3369,11 +3369,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Californium",
+    name: "IOX",
     appearance: "silvery",
     atomicMass: 251,
     boil: 1743,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: 15.1,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3386,8 +3386,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Californium",
 
     summary:
-      "Californium is a radioactive metallic chemical element with symbol Cf and atomic number 98. The element was first made in 1950 at the University of California Radiation Laboratory in Berkeley, by bombarding curium with alpha particles. It is an actinide element, the sixth transuranium element to be synthesized, and has the second-highest atomic mass of all the elements that have been produced in amounts large enough to see with the unaided eye.",
-    symbol: "Cf",
+      "IOX technology allows Geotab GO input/output device expansion. It allows you to connect other hardware to the device and further its capabilities using other Add-Ons. Geotab GO TALK is an example of IOX technology, in which the GO TALK device is connected into the Geotab GO device, sending driving tips and behavior alerts to the vehicle operator in real-time.",
+    symbol: "Ox",
     group: 12,
 
     shells: [2, 8, 18, 32, 28, 8, 2],
@@ -3398,11 +3398,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Einsteinium",
+    name: "Marketplace",
     appearance: "silver-colored",
     atomicMass: 252,
     boil: 1269,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: 8.84,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3415,8 +3415,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Einsteinium",
 
     summary:
-      "Einsteinium is a synthetic element with symbol Es and atomic number 99. It is the seventh transuranic element, and an actinide. Einsteinium was discovered as a component of the debris of the first hydrogen bomb explosion in 1952, and named after Albert Einstein.",
-    symbol: "Es",
+      "The Geotab Marketplace is an online solutions center where fleets can browse for business-specific Add-Ons and software Add-Ins and Apps to integrate with their Geotab telematics system, such as a fuel tracker, driver scorecard or collision reconstruction. Read an overview of the Marketplace.",
+    symbol: "Mp",
     group: 13,
 
     shells: [2, 8, 18, 32, 29, 8, 2],
@@ -3427,11 +3427,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Fermium",
+    name: "Open Platform",
     appearance: null,
     atomicMass: 257,
     boil: null,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: null,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3444,8 +3444,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Fermium",
 
     summary:
-      "Fermium is a synthetic element with symbol Fm and atomic number 100. It is a member of the actinide series. It is the heaviest element that can be formed by neutron bombardment of lighter elements, and hence the last element that can be prepared in macroscopic quantities, although pure fermium metal has not yet been prepared.",
-    symbol: "Fm",
+      "Open platform means a proprietary telematics system which provides open or free access to the data through a software development kit (SDK) and application programming interfaces (APIs) — see separate glossary entries for both. In contrast, a closed platform may have vehicle manufacturer specific hardware and the access to data is limited or filtered. Open platform users have flexibility for integrating telematics with their other business systems, and using partner vendor devices, or third-party applications and solutions such as from the Geotab Marketplace. Find a longer definition of open platform in here and read about its advantages here.",
+    symbol: "Op",
     group: 14,
 
     shells: [2, 8, 18, 32, 30, 8, 2],
@@ -3456,11 +3456,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Mendelevium",
+    name: "Scalability",
     appearance: null,
     atomicMass: 258,
     boil: null,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: null,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3473,8 +3473,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Mendelevium",
 
     summary:
-      "Mendelevium is a synthetic element with chemical symbol Md (formerly Mv) and atomic number 101. A metallic radioactive transuranic element in the actinide series, it is the first element that currently cannot be produced in macroscopic quantities through neutron bombardment of lighter elements. It is the antepenultimate actinide and the ninth transuranic element.",
-    symbol: "Md",
+      "Scalability means being able to increase in size and strength as a business evolves and grows.",
+    symbol: "Sa",
     group: 15,
 
     shells: [2, 8, 18, 32, 31, 8, 2],
@@ -3485,11 +3485,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Nobelium",
+    name: "SDK",
     appearance: null,
     atomicMass: 259,
     boil: null,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: null,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3502,8 +3502,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Nobelium",
 
     summary:
-      "Nobelium is a synthetic chemical element with symbol No and atomic number 102. It is named in honor of Alfred Nobel, the inventor of dynamite and benefactor of science. A radioactive metal, it is the tenth transuranic element and is the penultimate member of the actinide series.",
-    symbol: "No",
+      "A software development kit (SDK) is the set of tools, information, and examples given to other software developers on how to work with the data. The SDK along with APIs (see separate glossary entry on APIs) enable what’s called open platform telematics (see separate entry). Learn why by watching a video about the Geotab SDK here.",
+    symbol: "Sk",
     group: 16,
 
     shells: [2, 8, 18, 32, 32, 8, 2],
@@ -3514,11 +3514,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Lawrencium",
+    name: "Software Integration",
     appearance: null,
     atomicMass: 266,
     boil: null,
-    category: "actinide",
+    category: "Expandability",
     color: null,
     density: null,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3531,8 +3531,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Lawrencium",
 
     summary:
-      "Lawrencium is a synthetic chemical element with chemical symbol Lr (formerly Lw) and atomic number 103. It is named in honor of Ernest Lawrence, inventor of the cyclotron, a device that was used to discover many artificial radioactive elements. A radioactive metal, lawrencium is the eleventh transuranic element and is also the final member of the actinide series.",
-    symbol: "Lr",
+      "Software integration allows the leverage of real-time connected vehicle data feeds and the building of custom applications using Geotab’s aggregated data.",
+    symbol: "Si",
     group: 17,
 
     shells: [2, 8, 18, 32, 32, 8, 3],
@@ -3543,11 +3543,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Rutherfordium",
+    name: "NMFTA",
     appearance: null,
     atomicMass: 267,
     boil: 5800,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 23.2,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3560,8 +3560,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Rutherfordium",
 
     summary:
-      "Rutherfordium is a chemical element with symbol Rf and atomic number 104, named in honor of physicist Ernest Rutherford. It is a synthetic element and radioactive; the most stable known isotope, 267Rf, has a half-life of approximately 1.3 hours. In the periodic table of the elements, it is a d - block element and the second of the fourth - row transition elements.",
-    symbol: "Rf",
+      "The National Motor Freight Traffic Association (NMFTA) is a non-profit membership organization responsible for publishing National Motor Freight Classifications (NMFC) and assigning Standard Carrier Alpha codes (SCAC) and Standard Point Location codes (SPLC). The organization is comprised of inter and intrastate carriers as well as foreign commerce fleets. In 2019, the NMFTA released the Open Telematics API (OTAPI) which works to improve secure interoperability between telematics providers and fleets through data standardization.",
+    symbol: "Nm",
     group: 4,
 
     shells: [2, 8, 18, 32, 32, 10, 2],
@@ -3572,11 +3572,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Dubnium",
+    name: "OTA",
     appearance: null,
     atomicMass: 268,
     boil: null,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 29.3,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3589,8 +3589,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Dubnium",
 
     summary:
-      "Dubnium is a chemical element with symbol Db and atomic number 105. It is named after the town of Dubna in Russia (north of Moscow), where it was first produced. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, dubnium-268, has a half-life of approximately 28 hours.",
-    symbol: "Db",
+      "Over the Air (OTA) testing evaluates the performance of the integrated antenna on a telematics device (and many others) to understand the safety and risks behind using a particular type of device — consider all the safety labels seen on electronics in general. This particular test makes sure the device meets the minimum levels of radiation (total radiated power) and sensitivity (total isotropic power) and is only one of three main aspects of testing these types of devices. Read more here.",
+    symbol: "Ot",
     group: 5,
 
     shells: [2, 8, 18, 32, 32, 11, 2],
@@ -3601,11 +3601,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Seaborgium",
+    name: "Secure Communication",
     appearance: null,
     atomicMass: 269,
     boil: null,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 35,
     discoveredBy: "Lawrence Berkeley National Laboratory",
@@ -3618,8 +3618,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Seaborgium",
 
     summary:
-      "Seaborgium is a synthetic element with symbol Sg and atomic number 106. Its most stable isotope 271Sg has a half-life of 1.9 minutes. A more recently discovered isotope 269Sg has a potentially slightly longer half-life (ca.",
-    symbol: "Sg",
+      "When there is a secure connection, it creates only communication between two (or the amount of authorized parties) without the risk of any third party interference. This ensures that unathorized access to telecommunications traffic doesn't occur.",
+    symbol: "Sc",
     group: 6,
 
     shells: [2, 8, 18, 32, 32, 12, 2],
@@ -3630,11 +3630,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Bohrium",
+    name: "Smart City",
     appearance: null,
     atomicMass: 270,
     boil: null,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 37.1,
     discoveredBy: "Gesellschaft für Schwerionenforschung",
@@ -3647,8 +3647,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Bohrium",
 
     summary:
-      "Bohrium is a chemical element with symbol Bh and atomic number 107. It is named after Danish physicist Niels Bohr. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and radioactive; the most stable known isotope, 270Bh, has a half-life of approximately 61 seconds.",
-    symbol: "Bh",
+      "Smart cities leverage connected infrastructure, sensors and IoT devices to help solve urban challenges like traffic congestion, service delivery for growing populations, and public health and safety. Telematics and urban analytics are the building blocks of smart cities, by providing municipalities with a real-time view on city operations and conditions. Learn more about smart city solutions from Geotab.",
+    symbol: "Sm",
     group: 7,
 
     shells: [2, 8, 18, 32, 32, 13, 2],
@@ -3659,11 +3659,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Hassium",
+    name: "Telematics",
     appearance: null,
     atomicMass: 269,
     boil: null,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 40.7,
     discoveredBy: "Gesellschaft für Schwerionenforschung",
@@ -3676,8 +3676,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Hassium",
 
     summary:
-      "Hassium is a chemical element with symbol Hs and atomic number 108, named after the German state of Hesse. It is a synthetic element and radioactive; the most stable known isotope, 269Hs, has a half-life of approximately 9.7 seconds, although an unconfirmed metastable state, 277mHs, may have a longer half-life of about 130 seconds. More than 100 atoms of hassium have been synthesized to date.",
-    symbol: "Hs",
+      "Telematics is the monitoring of a car, truck or another type of equipment or asset with a device to track GPS location, vehicle speed, driving behavior, and other engine data for fleet management and optimization. Go for a deeper dive in: What is telematics?",
+    symbol: "Te",
     group: 8,
 
     shells: [2, 8, 18, 32, 32, 14, 2],
@@ -3688,11 +3688,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Meitnerium",
+    name: "Trips",
     appearance: null,
     atomicMass: 278,
     boil: null,
-    category: "probably transition metal",
+    category: "General",
     color: null,
     density: 37.4,
     discoveredBy: "Gesellschaft für Schwerionenforschung",
@@ -3705,8 +3705,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Meitnerium",
 
     summary:
-      "Meitnerium is a chemical element with symbol Mt and atomic number 109. It is an extremely radioactive synthetic element (an element not found in nature that can be created in a laboratory). The most stable known isotope, meitnerium-278, has a half-life of 7.6 seconds.",
-    symbol: "Mt",
+      "Vehicle trips from point A to point B can be tracked by telematics and viewed from a fleet management software portal or app. In Geotab, a trip is defined when the vehicle starts moving to when the vehicle starts moving again after a stop (when the vehicle ignition is turned off, or when the vehicle has a speed of less than 1 km/h for more than 200 seconds).",
+    symbol: "Tr",
     group: 9,
 
     shells: [2, 8, 18, 32, 32, 15, 2],
@@ -3717,11 +3717,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Darmstadtium",
+    name: "Urban Analytics",
     appearance: null,
     atomicMass: 281,
     boil: null,
-    category: "probably transition metal",
+    category: "General",
     color: null,
     density: 34.8,
     discoveredBy: "Gesellschaft für Schwerionenforschung",
@@ -3734,8 +3734,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Darmstadtium",
 
     summary:
-      "Darmstadtium is a chemical element with symbol Ds and atomic number 110. It is an extremely radioactive synthetic element. The most stable known isotope, darmstadtium-281, has a half-life of approximately 10 seconds.",
-    symbol: "Ds",
+      "Urban analytics is the collection and analysis of data on smart city processes and environment. Hazardous driving areas, intersection metrics, areas of idling and hyper-local precipitation are examples of datasets that smart cities can use to support traffic optimization, and improve safety and the environment.",
+    symbol: "Ur",
     group: 10,
 
     shells: [2, 8, 18, 32, 32, 16, 2],
@@ -3746,11 +3746,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Roentgenium",
+    name: "VIN",
     appearance: null,
     atomicMass: 282,
     boil: null,
-    category: "probably transition metal",
+    category: "General",
     color: null,
     density: 28.7,
     discoveredBy: "Gesellschaft für Schwerionenforschung",
@@ -3763,8 +3763,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Roentgenium",
 
     summary:
-      "Roentgenium is a chemical element with symbol Rg and atomic number 111. It is an extremely radioactive synthetic element (an element that can be created in a laboratory but is not found in nature); the most stable known isotope, roentgenium-282, has a half-life of 2.1 minutes. Roentgenium was first created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research near Darmstadt, Germany.",
-    symbol: "Rg",
+      "The Vehicle Identification Number (VIN) assigned to every vehicle is what tracks the vehicle throughout its life, no matter who owns it. For large fleets, keeping track of these can be a pain. VINs are important since they can also tell you if there have been any recalls on the vehicle, for example. MyGeotab has a VIN lookup tool to help manage VINs.",
+    symbol: "Vi",
     group: 11,
 
     shells: [2, 8, 18, 32, 32, 17, 2],
@@ -3775,11 +3775,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Copernicium",
+    name: "Watchdog Report",
     appearance: null,
     atomicMass: 285,
     boil: 3570,
-    category: "transition metal",
+    category: "General",
     color: null,
     density: 23.7,
     discoveredBy: "Gesellschaft für Schwerionenforschung",
@@ -3792,8 +3792,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Copernicium",
 
     summary:
-      "Copernicium is a chemical element with symbol Cn and atomic number 112. It is an extremely radioactive synthetic element that can only be created in a laboratory. The most stable known isotope, copernicium-285, has a half-life of approximately 29 seconds, but it is possible that this copernicium isotope may have a nuclear isomer with a longer half-life, 8.9 min.",
-    symbol: "Cn",
+      "The Watchdog Report in MyGeotab tracks the status of all Geotab GO devices within your fleet and shows whether a device has been used recently, is installed correctly or is working properly. For more information on using the Watchdog Report to maintain a healthy fleet, see this blog post.",
+    symbol: "Wr",
     group: 12,
 
     shells: [2, 8, 18, 32, 32, 18, 2],
@@ -3804,11 +3804,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Nihonium",
+    name: "Driver Scorecard",
     appearance: null,
     atomicMass: 286,
     boil: 1430,
-    category: "probably transition metal",
+    category: "Safety",
     color: null,
     density: 16,
     discoveredBy: "RIKEN",
@@ -3821,8 +3821,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Ununtrium",
 
     summary:
-      "Nihonium is a chemical element with atomic number 113. It has a symbol Nh. It is a synthetic element (an element that can be created in a laboratory but is not found in nature) and is extremely radioactive; its most stable known isotope, nihonium-286, has a half-life of 20 seconds.",
-    symbol: "Nh",
+      "A driver scorecard is a useful tool for fleet managers, to measure and rank driver performance, with the goal of improving safety, productivity, efficiency or even compliance. Fleets can customize scorecards to focus on speeding, harsh braking, engine light on, idling, fuel consumption, or other metrics.",
+    symbol: "Ds",
     group: 13,
 
     shells: [2, 8, 18, 32, 32, 18, 3],
@@ -3833,11 +3833,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Flerovium",
+    name: "Drowsy Driving",
     appearance: null,
     atomicMass: 289,
     boil: 420,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 14,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3850,8 +3850,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Flerovium",
 
     summary:
-      "Flerovium is a superheavy artificial chemical element with symbol Fl and atomic number 114. It is an extremely radioactive synthetic element. The element is named after the Flerov Laboratory of Nuclear Reactions of the Joint Institute for Nuclear Research in Dubna, Russia, where the element was discovered in 1998.",
-    symbol: "Fl",
+      "Drowsy Driving, also called “fatigued driving,” increases the likelihood of crashing and causes many fatalities and injuries on roads each year. The National Safety Council reports that driving after more than 20 hours with no sleep is equal to driving with a 0.08% blood-alcohol concentration (U.S. legal limit).",
+    symbol: "Dw",
     group: 14,
 
     shells: [2, 8, 18, 32, 32, 18, 4],
@@ -3862,11 +3862,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Moscovium",
+    name: "Harsh Braking",
     appearance: null,
     atomicMass: 289,
     boil: 1400,
-    category: "probably post-transition metal",
+    category: "Safety",
     color: null,
     density: 13.5,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3879,8 +3879,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Ununpentium",
 
     summary:
-      "Moscovium is the name of a synthetic superheavy element in the periodic table that has the symbol Mc and has the atomic number 115. It is an extremely radioactive element; its most stable known isotope, moscovium-289, has a half-life of only 220 milliseconds. It is also known as eka-bismuth or simply element 115.",
-    symbol: "Mc",
+      "Harsh braking occurs when a driver uses more force than necessary to stop the vehicle. The presence of harsh braking often indicates aggressive or distracted driving and can lead to costly claims, as well as increased maintenance issues.",
+    symbol: "Hb",
     group: 15,
 
     shells: [2, 8, 18, 32, 32, 18, 5],
@@ -3891,11 +3891,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Livermorium",
+    name: "Seat Belt Usage",
     appearance: null,
     atomicMass: 293,
     boil: 1085,
-    category: "post-transition metal",
+    category: "Safety",
     color: null,
     density: 12.9,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3908,8 +3908,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Livermorium",
 
     summary:
-      "Livermorium is a synthetic superheavy element with symbol Lv and atomic number 116. It is an extremely radioactive element that has only been created in the laboratory and has not been observed in nature. The element is named after the Lawrence Livermore National Laboratory in the United States, which collaborated with the Joint Institute for Nuclear Research in Dubna, Russia to discover livermorium in 2000.",
-    symbol: "Lv",
+      "Seat belt usage can actually be tracked by a telematics system such as the Geotab seat belt report, which lets managers know which drivers aren’t using their seat belt. It can also be used as part of the Geotab GO TALK in-vehicle coaching add-on (see separate glossary entry).",
+    symbol: "Sb",
     group: 16,
 
     shells: [2, 8, 18, 32, 32, 18, 6],
@@ -3920,11 +3920,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Tennessine",
+    name: "Remote Diagnostics",
     appearance: null,
     atomicMass: 294,
     boil: 883,
-    category: "unknown, probably metalloid",
+    category: "Fleet Optimization",
     color: null,
     density: 7.17,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3937,8 +3937,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Tennessine",
 
     summary:
-      "Tennessine is a superheavy artificial chemical element with an atomic number of 117 and a symbol of Ts. Also known as eka-astatine or element 117, it is the second-heaviest known element and penultimate element of the 7th period of the periodic table. As of 2016, fifteen tennessine atoms have been observed:six when it was first synthesized in 2010, seven in 2012, and two in 2014.",
-    symbol: "Ts",
+      "Remote diagnostics is a solution that fleets can use to set up automatic alerts on diagnostic trouble codes (DTCs) generated by the engine’s computer, along with severity, fault description, and recommendations for action. Benefits of remote diagnostics include helping prepare technicians in advance so they have the right parts and decreasing vehicle downtime.",
+    symbol: "Rd",
     group: 17,
 
     shells: [2, 8, 18, 32, 32, 18, 7],
@@ -3949,11 +3949,11 @@ const data: AtomInfo[] = [
     earthAbundance: null,
   },
   {
-    name: "Oganesson",
+    name: "Tachograph",
     appearance: null,
     atomicMass: 294,
     boil: 350,
-    category: "predicted to be noble gas",
+    category: "Compliance",
     color: null,
     density: 4.95,
     discoveredBy: "Joint Institute for Nuclear Research",
@@ -3966,8 +3966,8 @@ const data: AtomInfo[] = [
     source: "https://en.wikipedia.org/wiki/Oganesson",
 
     summary:
-      "Oganesson is IUPAC's name for the transactinide element with the atomic number 118 and element symbol Og. It is also known as eka-radon or element 118, and on the periodic table of the elements it is a p-block element and the last one of the 7th period. Oganesson is currently the only synthetic member of group 18.",
-    symbol: "Og",
+      "A tachograph is a device affixed to a vehicle weighing at least 3.5 tonnes that automatically records data on speed and distance together with the driver's activity selected from a choice of modes. To learn more about driving hour regulations in Europe see, EU-regulation (EC) No 561/2006.",
+    symbol: "Tg",
     group: 18,
 
     shells: [2, 8, 18, 32, 32, 18, 8],
